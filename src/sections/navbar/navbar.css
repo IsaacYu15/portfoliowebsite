@@ -1,0 +1,33 @@
+nav {
+    width: 100vw; /*cover entire viewport*/
+    height: 5rem;
+    display: grid;
+    place-items: center; /*place container in the middle*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9; /*so it sits on top of everything*/
+    backdrop-filter: blur(5px);
+    transition: var(--transition);
+}
+
+.nav__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__container a {
+    color: var(--color-black);
+    transition: var(--transition);
+}
+
+.nav__container a:hover {
+    color: var(--color-primary);
+}
+
+.nav__menu {
+    margin-left: 60%;
+    display: flex;
+    gap: 1.5rem;
+}
