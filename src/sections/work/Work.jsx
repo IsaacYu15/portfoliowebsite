@@ -9,7 +9,7 @@ const Services = () => {
     <section id="work">
       <div className="container work__container">
         
-        <h2>FEATURED PROECTS</h2>
+        <h2>FEATURED PROJECTS</h2>
 
         <div className="about__work">
            {

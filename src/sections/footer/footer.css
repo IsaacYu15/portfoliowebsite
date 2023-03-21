@@ -1,0 +1,10 @@
+.footer__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__container small {
+    font-style: italic;
+    margin-bottom: 5%;
+}
