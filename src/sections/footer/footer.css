@@ -4,7 +4,14 @@
     align-items: center;
 }
 
-.footer__container small {
+.footer__container a {
+    color: var(--color-secondary);
     font-style: italic;
+    text-align: center;
     margin-bottom: 5%;
+    transition: var(--transition);
+}
+
+.footer__container a:hover {
+    color: var(--color-primary);
 }
