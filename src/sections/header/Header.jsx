@@ -12,7 +12,7 @@ const Header = () => {
         <div className="header__content">
             <h1>ISAAC YU</h1>
             <p>Hey There! 👋</p>
-            <p>My name is Isaac and I'm a Grade 12 student who loves to code in their free time. 
+            <p>My names Isaac and I'm a Grade 12 student who loves to code in their free time. 
               I started off coding video games, but have moved on to developing various projects including pipelines, alogrithms, and websites!</p>
             <a href={Resume} dowload className='btn primary'>Download Resume <AiOutlineCloudDownload/></a>
         </div>
