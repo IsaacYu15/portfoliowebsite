@@ -55,7 +55,7 @@ body {
 
 /*GENERAL SECTION STYLES*/
 section {
-    padding: 5rem 0;
+    padding: 10% 0;
     background: var(--color-white);
     transition: var(--transition);
 }
