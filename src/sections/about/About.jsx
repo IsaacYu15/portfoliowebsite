@@ -1,7 +1,5 @@
 import './about.css'
 import AboutImage from '../../assets/temp.png'
-import Resume from '../../assets/Resume.pdf'
-import {AiOutlineCloudDownload} from 'react-icons/ai'
 import Card from '../../components/Card'
 import data from './data'
 
@@ -28,13 +26,6 @@ const About = () => {
               ))
             }
           </div>
-          <p>
-            YAYAYAYAYAY ABOUT ME
-          </p>
-          <p>
-            MORE TEXT YAHHHHH
-          </p>
-          <a href={Resume} dowload className='btn primary'>Download Resume <AiOutlineCloudDownload/></a>
 
           
         </div>
