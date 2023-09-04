@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/portfoliowebsite/static/css/main.c4d02d9e.css",
+    "main.js": "/portfoliowebsite/static/js/main.e7aaf98c.js",
+    "static/media/headerImage.PNG": "/portfoliowebsite/static/media/headerImage.a3cac87d6e6d956d6b80.PNG",
+    "static/media/SplatShowcase.png": "/portfoliowebsite/static/media/SplatShowcase.b108101e4c80fc278166.png",
+    "static/media/ProceduralShowcase.png": "/portfoliowebsite/static/media/ProceduralShowcase.c4917f3370a19a9d7a77.png",
+    "static/media/temp.png": "/portfoliowebsite/static/media/temp.6d5189c2d7902cc33464.png",
+    "static/media/Resume.pdf": "/portfoliowebsite/static/media/Resume.79ff290a5a0f3e32bb0e.pdf",
+    "static/media/SunnyShowcase.png": "/portfoliowebsite/static/media/SunnyShowcase.446972c4fc4f8e99186d.png",
+    "static/media/SCBClogo.png": "/portfoliowebsite/static/media/SCBClogo.449c3a00b4eaf6de386a.png",
+    "index.html": "/portfoliowebsite/index.html",
+    "main.c4d02d9e.css.map": "/portfoliowebsite/static/css/main.c4d02d9e.css.map",
+    "main.e7aaf98c.js.map": "/portfoliowebsite/static/js/main.e7aaf98c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c4d02d9e.css",
+    "static/js/main.e7aaf98c.js"
+  ]
+}
