@@ -10,8 +10,9 @@ const Header = () => {
         <div className="header__content">
             <h1>ISAAC YU</h1>
             <p>Hey There! 👋</p>
-            <p>My names Isaac and I'm a Grade 12 student who loves to code in their free time. 
-              I started off coding video games, but have moved on to developing various projects including pipelines, alogrithms, and websites!</p>          
+            <p>My names Isaac and I'm studying System Design Engineering at Waterloo. My passion for coding started 
+              with making video games, but now I've started to explore other projects including
+              the embed software and websites!</p>          
         </div>
 
         <img className="profile" src={HeaderImage} alt="Portrait"/>
