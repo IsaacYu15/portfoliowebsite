@@ -5,20 +5,14 @@ header {
     place-items: center;
     background: var(--color-white);
     transition: var(--transition);
-}
 
-.header__container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    gap: 10rem;
 }
 
 .profile {
+    display: block;
+    margin: auto auto auto auto;
 
-    width: 110vh; height: 65vh; 
+    width: 60vh; height: 60vh; 
     
     object-fit: cover; object-position: 100% 20%;
     border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
@@ -40,23 +34,34 @@ header {
     }
 }
 
-.header__content {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-    width: 70%
-}
-
-.header__content p {
-    font-size: 1rem;
-    margin-top: 1rem;
-}
-
-.header__content h1 {
+.headerBase {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
     line-height: 1.1;
-    font-size: 5rem;
+    font-size:7rem;
     color: var(--color-primary);
+
+    mix-blend-mode: exclusion;
+
 }
+
+.headerOverlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    line-height: 1.1;
+    font-size:7rem;
+    color: var(--color-primary);
+
+    mix-blend-mode: color;
+
+}
+
 
 
 .header__socials {
