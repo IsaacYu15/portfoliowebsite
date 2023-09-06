@@ -41,8 +41,5 @@
   },
   "devDependencies": {
     "gh-pages": "^5.0.0"
-  },
-  "engines": {
-    "node": "16.x"
   }
 }
