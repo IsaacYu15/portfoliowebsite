@@ -34,6 +34,34 @@ header {
     }
 }
 
+.headerBase {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    line-height: 1.1;
+    font-size:7rem;
+    color: var(--color-primary);
+
+    mix-blend-mode: exclusion;
+
+}
+
+.headerOverlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    line-height: 1.1;
+    font-size:7rem;
+    color: var(--color-primary);
+
+    mix-blend-mode: color;
+
+}
+
 
 
 .header__socials {
