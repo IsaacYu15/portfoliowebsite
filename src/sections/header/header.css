@@ -34,6 +34,19 @@ header {
     }
 }
 
+.bio__container {
+    margin: 20% 0 20% 0;
+    border: 5px #f1f2f3 solid;
+    padding: 20px 0px 20px 0px;
+}
+
+.bio__container p {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-size: 1rem;
+}
+
 .headerBase {
     position: absolute;
     top: 50%;
@@ -61,8 +74,6 @@ header {
     mix-blend-mode: color;
 
 }
-
-
 
 .header__socials {
     position: fixed; /*defines the position of a given bounding box from the top and left side margins of the web page*/
