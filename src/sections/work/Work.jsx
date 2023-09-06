@@ -16,13 +16,11 @@ const Services = () => {
 
             data.map(item => 
 
-
                <Card key={item.id} className="about__card">    
-                   <div className ="left">
-                      <img src={require('../../assets/' + item.source + '.png')} alt="logo"/>
-                    </div>    
+                    <img className = "left" src={require('../../assets/' + item.source + '.png')} alt="logo"/>
 
                     <div className="right">
+                      
                       <h3>{item.title}</h3>
                       <p>{item.desc}</p>
                       <small>{item.lang}</small>
