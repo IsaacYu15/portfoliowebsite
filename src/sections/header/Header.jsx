@@ -1,5 +1,5 @@
 import'./header.css'
-//import HeaderImage from '../../assets/headerImage.png'
+import HeaderImage from '../../assets/headerImage.PNG' 
 import data from './data'
 
 const Header = () => {
@@ -10,7 +10,7 @@ const Header = () => {
         <h1 className="headerBase">ISAAC YU</h1>  
         <h1 className="headerOverlay">ISAAC YU</h1>  
 
-        <img className="profile" src='../../assets/headerImage.png' alt="Portrait"/>
+        <img className="profile" src={HeaderImage} alt="Portrait"/>
         
         <div className='header__socials'>
           {
