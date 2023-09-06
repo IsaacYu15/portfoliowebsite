@@ -7,8 +7,11 @@ const Header = () => {
     <header id="header">
       <div className="container header__container">
 
-        <h1 className="headerBase">ISAAC YU</h1>  
-        <h1 className="headerOverlay">ISAAC YU</h1>  
+        <div className = "headerContent">
+           <h1 className="headerBase">ISAAC YU</h1>  
+           <h1 className="headerOverlay">ISAAC YU</h1>  
+        </div>
+
 
         <img className="profile" src={HeaderImage} alt="Portrait"/>
         
