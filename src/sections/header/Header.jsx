@@ -11,6 +11,7 @@ const scrollToBio =()=> {
   });
 
 }
+
 const Header = () => {
   return (
     <header id="header">

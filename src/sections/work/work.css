@@ -1,8 +1,12 @@
+#work{
+    margin-top: 10%;
+    height: fit-content;
+}
+
 .work__container {
     display: flex;
     flex-direction: column;
     gap: 3rem;
-    margin-top: 30%;
 }
 
 .about__work {

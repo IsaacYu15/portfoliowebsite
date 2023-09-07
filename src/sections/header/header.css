@@ -5,7 +5,7 @@ header {
     place-items: center;
     background: var(--color-white);
     transition: var(--transition);
-
+    height: fit-content;
 }
 
 .profile {
@@ -35,7 +35,7 @@ header {
 }
 
 .bio__container {
-    margin: 20% 0 20% 0;
+    margin-top: 10%;
     border: 5px #f1f2f3 solid;
     padding: 20px 0px 20px 0px;
 }
@@ -48,9 +48,7 @@ header {
 }
 
 .arrow {
-
     margin-top: 3%;
-
     width: 30px;
     height: 30px;
 
