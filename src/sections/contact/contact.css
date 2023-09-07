@@ -1,12 +1,16 @@
+#contact{
+    width:50%;
+    height: fit-content;
+    margin: auto;
+    border-top: 5px #f1f2f3 solid;
+    border-bottom: 5px #f1f2f3 solid;
+}
+
 .contact__container {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     gap: 2rem;
-}
-
-.contact__container p {
-    width: 50%;
 }
 
