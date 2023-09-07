@@ -2,6 +2,15 @@ import'./header.css'
 import HeaderImage from '../../assets/headerImage.png' 
 import data from './data'
 
+const scrollToBio =()=> {
+  const div = document.getElementsByClassName("container bio__container");
+
+  div[0].scrollIntoView({
+    block: "center",
+    inline: "center",
+  });
+
+}
 const Header = () => {
   return (
     <header id="header">
@@ -21,11 +30,13 @@ const Header = () => {
 
       </div>
 
+      <button className="arrow" onClick={scrollToBio}></button>
+
       <div className="container bio__container  "> 
           <p>Hey! 👋 My names Isaac and I'm studying System Design Engineering at Waterloo. My passion for coding started
           with making video games, but now I've started to explore other projects including
           the embed software and websites! </p>  
-        </div>
+      </div>
 
     </header>
   )
