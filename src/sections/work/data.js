@@ -29,7 +29,7 @@ const data = [
     git:  'https://github.com/IsaacYu15/VR-Surgery'
     },
 
-    {id: 4, source:'SpaceoutShowcase.png', 
+    {id: 4, source:'SpaceoutShowcase', 
     title: 'SPACE OUT!', 
     desc: 'Developed a spaced repitition flashcard game that rewards you with a mix and match game every time' +
           'you master a card. Won 1st Place Overall & Best Productivity/Time Saving Hack (Clock Hacks)',
