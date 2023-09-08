@@ -36,8 +36,6 @@ header {
 
 .bio__container {
     margin-top: 10%;
-    border: 5px #f1f2f3 solid;
-    padding: 20px 0px 20px 0px;
 }
 
 .bio__container p {
@@ -45,6 +43,9 @@ header {
     margin: auto;
     text-align: center;
     font-size: 1rem;
+
+    border: 5px #f1f2f3 solid;
+    padding: 1.5rem;
 }
 
 .arrow {

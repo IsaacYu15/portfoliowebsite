@@ -29,7 +29,7 @@ const data = [
       git:  'https://github.com/IsaacYu15/VR-Surgery'
       },
 
-      {id: 4, source:'weatherappShowcase.png', 
+      {id: 4, source:'weatherappShowcase', 
       title: 'WEATHER TRACKING APP', 
       desc: 'Developed a program that allows you to press any location on the map and view the current' +
             ' weather in that location',
