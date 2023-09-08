@@ -13,7 +13,7 @@ const data = [
   
       {id: 2, source:'wordhuntsolverShowcase', 
       title: 'WORDHUNT / BOGGLE SOLVER', 
-      desc: 'Developed a recursive algorithm that finds all valid words in a 4x4 grid (valid words being a' +
+      desc: 'Designed a recursive algorithm that finds all valid words in a 4x4 grid (valid words being a' +
             'word in the dictionary and all letters are diagonal, above/below, or beside one another',
       lang: 'Javascript, HTML, CSS',
       link: 'https://word-hunt-solver-eight.vercel.app/',
@@ -22,15 +22,23 @@ const data = [
 
       {id: 3, source:'vrsurgeryShowcase', 
       title: 'VR SURGERY', 
-      desc: 'Developed a surgery game that allows users to experience the basic features of surgery robots ' +
+      desc: 'Created a surgery game that allows users to experience the basic features of surgery robots ' +
             'such as grabbing, cutting and suturing.',
       lang: 'Unity, C#, Oculus Integration',
       link: 'https://www.youtube.com/watch?v=iJSWnNqPqfo',
       git:  'https://github.com/IsaacYu15/VR-Surgery'
       },
 
+      {id: 4, source:'weatherappShowcase.png', 
+      title: 'WEATHER TRACKING APP', 
+      desc: 'Developed a program that allows you to press any location on the map and view the current' +
+            ' weather in that location',
+      lang: 'Here Maps API, Open Weather API, React, Javascript, HTML, CSS',
+      link: 'N/A',
+      git: 'https://github.com/IsaacYu15/WeatherTracker'
+     },  
 
-     {id: 4, source:'ProceduralShowcase', 
+     {id: 5, source:'ProceduralShowcase', 
      title: 'PROCEDURAL ANIMATION', 
      desc: 'Developed an algorithm which generates walking animations in real time by using vector math. ' +
            'This allows spider can walk over uneven terrains realistically.',
@@ -39,7 +47,7 @@ const data = [
      git: 'https://github.com/IsaacYu15/ProceduralWalkingAnimation'
     },
 
-    {id: 5, source:'SplatShowcase', 
+    {id: 6, source:'SplatShowcase', 
     title: 'SPLAT!', 
     desc: 'Developed and released a 2D platform where player shrinks with every jump. ' +
           'Over 30 levels, endless mode, skins and more available!',
@@ -47,6 +55,7 @@ const data = [
     link: 'https://play.google.com/store/apps/details?id=com.IsaacYu.Splat',
     git: 'N/A'
    },
+
 
 
 
