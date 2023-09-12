@@ -49,6 +49,7 @@
 }
 
 .right p {
+    font-size:2.2vh;
     text-align: right;
     width: 100%;
     background: var(--color-light);
@@ -62,7 +63,7 @@
 }
 
 .right small {
-    font-size: 2vh;
+    font-size: 0.7rem;
     font-style: italic;
     text-align: right;
 }
