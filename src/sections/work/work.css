@@ -62,6 +62,7 @@
 }
 
 .right small {
+    font-size: 2vh;
     font-style: italic;
     text-align: right;
 }
