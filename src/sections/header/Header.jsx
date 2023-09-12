@@ -14,7 +14,13 @@ const scrollToBio =()=> {
 
 const Header = () => {
   return (
+
+
     <header id="header">
+      <div id="roate">
+        <p>Please Rotate Your Screen</p>
+      </div>
+
       <div className="container header__container">
 
         <h1 className="headerBase">ISAAC YU</h1>  

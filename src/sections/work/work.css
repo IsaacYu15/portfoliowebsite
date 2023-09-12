@@ -32,10 +32,21 @@
 
 }
 
+@media screen and (max-width: 300px) {
+    #rotate {
+        background-color: rgba(0,0,0,0.5);
+        display: block;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+}
+
 .left {
     width: 50%;
     object-fit: cover;
-    
+
     vertical-align: middle;
 
     border-radius: var(--border-radius-1);

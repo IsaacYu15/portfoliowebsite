@@ -8,6 +8,10 @@ header {
     height: fit-content;
 }
 
+#rotate {
+    display: none;
+}
+
 .profile {
     display: block;
     margin: auto auto auto auto;
