@@ -36,8 +36,8 @@ const Header = () => {
       <div className="container bio__container  "> 
           <p>Hey! 👋 My name is Isaac and I'm studying Systems Design Engineering at Waterloo. I've been developing games for 
             5+ years, and have been exploring various applications programming in the real world. I'm always on the look out to learn new things
-            and have picked up many roles including working with embeded software in a research lab and learning 
-            full stack development. </p>  
+            such as working with embeded software in a research lab to learning 
+            full stack development! </p>  
       </div>
 
     </header>
