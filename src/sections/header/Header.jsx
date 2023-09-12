@@ -17,9 +17,6 @@ const Header = () => {
 
 
     <header id="header">
-      <div id="roate">
-        <p>Please Rotate Your Screen</p>
-      </div>
 
       <div className="container header__container">
 
