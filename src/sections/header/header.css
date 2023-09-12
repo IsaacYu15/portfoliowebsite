@@ -42,7 +42,7 @@ header {
     width: 50%;
     margin: auto;
     text-align: center;
-    font-size: 1rem;
+    font-size: 2.5vh;
 
     border: 5px #f1f2f3 solid;
     padding: 1.5rem;
@@ -76,10 +76,11 @@ header {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -70%);
     
     line-height: 1.1;
-    font-size:7rem;
+    font-size:15vh;
+    white-space: nowrap;
     color: var(--color-primary);
 
     mix-blend-mode: exclusion;
@@ -90,10 +91,11 @@ header {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -70%);
     
     line-height: 1.1;
-    font-size:7rem;
+    font-size: 15vh;
+    white-space: nowrap;
     color: var(--color-primary);
 
     mix-blend-mode: color;
@@ -119,12 +121,13 @@ header {
     place-items: center;
     border-radius: var(--border-radius-3);
     transition: var(--transition);
+    transform: translate(-80%, 0%);
 }
 
 .header__socials a:hover {
     background: var(--color-primary);
     color: var(--color-white);
-    transform: translateX(-0.5rem);
+    transform: translateX(-1rem);
     border-radius: 2rem;
 }
 

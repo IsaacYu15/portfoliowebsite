@@ -24,7 +24,6 @@
 
 .right{
     width: 50%;
-    height: auto;
     vertical-align: middle;
 
     display:flex;
@@ -35,7 +34,8 @@
 
 .left {
     width: 50%;
-    height: auto;
+    object-fit: cover;
+    
     vertical-align: middle;
 
     border-radius: var(--border-radius-1);

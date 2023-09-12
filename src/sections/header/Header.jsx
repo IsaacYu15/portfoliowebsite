@@ -34,9 +34,10 @@ const Header = () => {
       <button className="arrow" onClick={scrollToBio}></button>
 
       <div className="container bio__container  "> 
-          <p>Hey! 👋 My names Isaac and I'm studying System Design Engineering at Waterloo. My passion for coding started
-          with making video games, but now I've started to explore other projects including
-          the embed software and websites! </p>  
+          <p>Hey! 👋 My name is Isaac and I'm studying Systems Design Engineering at Waterloo. I've been developing games for 
+            5+ years, and have been exploring various applications programming in the real world. I'm always on the look out to learn new things
+            and have picked up many roles including working with embeded software in a research lab and learning 
+            full stack development. </p>  
       </div>
 
     </header>
