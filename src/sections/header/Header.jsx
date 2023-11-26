@@ -16,13 +16,13 @@ const Header = () => {
       var mouseX = (e.clientX / window.innerWidth) * 100;
       var mouseY = (e.clientY / window.innerHeight) * 100;
       var header = document.getElementsByClassName("headerText");
-      var pos = (mouseX / 2 + mouseY / 2).toString() + "% ";
+      var pos = (mouseX / 6 + mouseY / 6).toString() + "% ";
 
       for (var i = 0; i < header.length; i++) {
         header[i].style.backgroundPosition = pos;
       }
 
-      console.log(header[0]);
+      console.log(header[0].style);
     };
 
     document.addEventListener("mousemove", handleMouseMove);
