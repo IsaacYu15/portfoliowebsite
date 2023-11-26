@@ -1,89 +1,87 @@
-#work{
-    margin-top: 10%;
-    height: fit-content;
+#work {
+  margin-top: 100%;
+  height: fit-content;
 }
 
 .work__container {
-    display: flex;
-    flex-direction: column;
-    gap: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
 }
 
 .about__work {
-    display: flex;
-    flex-direction: column;
-    gap: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
 }
 
 .about__card {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 
-    gap: 2rem;
+  gap: 2rem;
 }
 
-.right{
-    width: 50%;
-    vertical-align: middle;
+.right {
+  width: 50%;
+  vertical-align: middle;
 
-    display:flex;
-    flex-direction: column;
-    gap: 0.5rem;
-
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 
 .left {
-    width: 50%;
-    object-fit: cover;
+  width: 50%;
+  object-fit: cover;
 
-    vertical-align: middle;
+  vertical-align: middle;
 
-    border-radius: var(--border-radius-1);
-    border: 5px solid;
-    border-color: var(--color-secondary);
-    transition: var(--transition);
+  border-radius: var(--border-radius-1);
+  border: 5px solid;
+  border-color: var(--color-secondary);
+  transition: var(--transition);
 }
 
 .left:hover {
-    border-color: var(--color-primary);
+  border-color: var(--color-primary);
 }
 
 .right p {
-    font-size:2.2vh;
-    text-align: right;
-    width: 100%;
-    background: var(--color-light);
-    padding: 20px;
-    border-radius: var(--border-radius-2);
+  font-size: 2.2vh;
+  text-align: right;
+  width: 100%;
+  background: var(--color-light);
+  padding: 20px;
+  border-radius: var(--border-radius-2);
 }
 
 .right h3 {
-    color: var(--color-primary);
-    text-align: right;
+  color: var(--color-primary);
+  text-align: right;
 }
 
 .right small {
-    font-size: 0.7rem;
-    font-style: italic;
-    text-align: right;
+  font-size: 0.7rem;
+  font-style: italic;
+  text-align: right;
 }
 
 .links {
-    display: flex;
-    flex-direction: row;
-    gap: 2rem;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
 }
 
 .card.about__card a {
-    font-size: 1.5rem;
-    color: var(--color-primary);
-    background: transparent;
+  font-size: 1.5rem;
+  color: var(--color-primary);
+  background: transparent;
 
-    transition: var(--transition);
+  transition: var(--transition);
 }
 
 .card.about__card a:hover {
-    color: var(--color-secondary);
-    transform: translateY(-5px);
+  color: var(--color-secondary);
+  transform: translateY(-5px);
 }
-
