@@ -1,134 +1,106 @@
 header {
-    margin-top: 5rem; /*to push down below the navbar*/
-    height: calc(100vh - 5rem); /*make sure we push down in consideration to the margin*/
-    display: grid;
-    place-items: center;
-    background: var(--color-white);
-    transition: var(--transition);
-    height: fit-content;
+  margin-top: 5rem; /*to push down below the navbar*/
+  height: calc(
+    100vh - 5rem
+  ); /*make sure we push down in consideration to the margin*/
+  display: grid;
+  place-items: center;
+  background: var(--color-white);
+  transition: var(--transition);
+  height: fit-content;
 }
 
+.headerText {
+  font-size: 10rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(
+    to right,
+    #cad2c5,
+    #84a98c,
+    #52796f,
+    #354f52,
+    #2f3e46
+  );
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+
+  background-size: 300%;
+}
 
 .profile {
-    display: block;
-    margin: auto auto auto auto;
-
-    width: 60vh; height: 60vh; 
-    
-    object-fit: cover; object-position: 100% 20%;
-    border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
-
-    animation: blob 10s ease-in-out infinite;
-}
-
-@keyframes blob {
-    0%, 100% {
-        border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
-    }
-
-    33% {
-        border-radius: 42% 28% 48% 48% / 28% 28% 72% 72%;
-    }
-
-    66% {
-        border-radius: 100% 56% 56% 100% / 100% 100% 56% 56%;
-    }
+  display: block;
+  margin: auto auto auto auto;
 }
 
 .bio__container {
-    margin-top: 10%;
+  margin-top: 10%;
 }
 
 .bio__container p {
-    width: 50%;
-    margin: auto;
-    text-align: center;
-    font-size: 2.5vh;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  font-size: 2.5vh;
 
-    border: 5px #f1f2f3 solid;
-    padding: 1.5rem;
+  border: 5px #f1f2f3 solid;
+  padding: 1.5rem;
 }
 
 .arrow {
-    margin-top: 3%;
-    width: 30px;
-    height: 30px;
+  margin-top: 3%;
+  width: 30px;
+  height: 30px;
 
-    background-color: white;
-    background-image: url("../../assets/downarrow.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-color: white;
+  background-image: url("../../assets/downarrow.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
-    animation: fadeinout 3s ease-in-out infinite;
+  animation: fadeinout 3s ease-in-out infinite;
 }
 
 @keyframes fadeinout {
-    0%, 100% {
-        opacity: 0.3;
-    }
+  0%,
+  100% {
+    opacity: 0.3;
+  }
 
-    50% {
-        opacity: 0.1; 
-    }
+  50% {
+    opacity: 0.1;
+  }
 }
 
 .headerBase {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -70%);
-    
-    line-height: 1.1;
-    font-size:15vh;
-    white-space: nowrap;
-    color: var(--color-primary);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -70%);
 
-    mix-blend-mode: exclusion;
+  line-height: 1.1;
+  font-size: 15vh;
+  white-space: nowrap;
+  color: var(--color-primary);
 
+  mix-blend-mode: exclusion;
 }
 
-.headerOverlay{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -70%);
-    
-    line-height: 1.1;
-    font-size: 15vh;
-    white-space: nowrap;
-    color: var(--color-primary);
+.headerOverlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -70%);
 
-    mix-blend-mode: color;
+  line-height: 1.1;
+  font-size: 15vh;
+  white-space: nowrap;
+  color: var(--color-primary);
 
+  mix-blend-mode: color;
 }
-
-.header__socials {
-    position: fixed; /*defines the position of a given bounding box from the top and left side margins of the web page*/
-    left: 50;
-    bottom: 110;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-
-}
-
-.header__socials a {
-    width: 2.5rem;
-    aspect-ratio: 1/1; /* h to w ratio*/
-    background: var(--color-secondary);
-    color: var(--color-black);
-    display: grid;
-    place-items: center;
-    border-radius: var(--border-radius-3);
-    transition: var(--transition);
-    transform: translate(-80%, 0%);
-}
-
-.header__socials a:hover {
-    background: var(--color-primary);
-    color: var(--color-white);
-    transform: translateX(-1rem);
-    border-radius: 2rem;
-}
-
