@@ -47,8 +47,6 @@ header {
 
 .textWrapper {
   position: fixed;
-  transform: translate(50%, 0%);
-
   height: 100%;
 
   display: flex;
