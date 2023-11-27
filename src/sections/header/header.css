@@ -63,6 +63,7 @@ header {
   color: transparent;
 
   background-size: 300%;
+  background-position: var(--mousePos);
 
   animation: header-text-in 2s cubic-bezier(0.97, 0.01, 0.36, 0.99);
   animation-delay: 3s;

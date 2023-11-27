@@ -10,7 +10,7 @@ const Header = () => {
       inline: "center",
     });
   };
-
+  /*
   useEffect(() => {
     const handleMouseMove = (e) => {
       var mouseX = (e.clientX / window.innerWidth) * 100;
@@ -34,6 +34,7 @@ const Header = () => {
       );
     });
   }, []);
+  */
 
   return (
     <header id="header">
