@@ -9,20 +9,19 @@
   box-sizing: border-box;
 }
 
-:root {
-  /*define custom properties*/
-  --primary-hue: 270;
-  --black-lightness: 15%;
-  --dark-lightness: 44%;
-  --light-lightness: 94%;
-  --white-lightness: 100%;
-  --color-primary: #60afff;
-  --color-secondary: #ffb6c1;
-  --color-white: white;
-  --color-light: hsl(var(--primary-hue), 5%, var(--light-lightness));
-  --color-black: hsl(var(--primary-hue), 5%, var(--black-lightness));
-  --color-dark: hsl(var(--primary-hue), 5%, var(--dark-lightness));
+@font-face {
+  font-family: "Syne-Bold";
+  src: local("Syne-Bold"),
+    url("./fonts/static/Syne-Bold.ttf") format("truetype");
+}
 
+@font-face {
+  font-family: "Syne-Regular";
+  src: local("Syne-Regular"),
+    url("./fonts/static/Syne-Regular.ttf") format("truetype");
+}
+
+:root {
   /*GENERAL CONTAINER VARIABLES*/
   --container-width-lg: 76%; /*for desktop*/
   --container-width-md: 90%; /*for phones and tablets*/
@@ -34,8 +33,20 @@
 
   /*GENERAL TRANSITION VARIABLE*/
   --transition: all 500ms ease;
+
+  /*COLORS*/
+  --color-black: #161616;
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+h1 {
+  font-family: "Syne-Bold";
+}
+
+li {
+  font-size: 3vh;
+  font-family: "Syne-Regular";
 }
