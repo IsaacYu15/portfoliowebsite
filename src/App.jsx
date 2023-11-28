@@ -3,6 +3,7 @@ import Footer from "./sections/footer/Footer";
 import Header from "./sections/header/Header";
 import Navbar from "./sections/navbar/Navbar";
 import Work from "./sections/work/Work";
+import Bio from "./sections/bio/Bio";
 
 import { useEffect, useState } from "react";
 
@@ -29,6 +30,7 @@ const App = () => {
     <main>
       <Navbar />
       <Header />
+      <Bio />
       <Work />
       <Contact />
       <Footer />

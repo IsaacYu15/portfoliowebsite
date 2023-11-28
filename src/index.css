@@ -21,6 +21,12 @@
     url("./fonts/static/Syne-Regular.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "Syne-SemiBold";
+  src: local("Syne-SemiBold"),
+    url("./fonts/static/Syne-SemiBold.ttf") format("truetype");
+}
+
 :root {
   /*GENERAL CONTAINER VARIABLES*/
   --container-width-lg: 76%; /*for desktop*/
@@ -49,4 +55,9 @@ h1 {
 li {
   font-size: 3vh;
   font-family: "Syne-Regular";
+}
+
+p {
+  font-size: 4vh;
+  font-family: "Syne-SemiBold";
 }
