@@ -1,0 +1,30 @@
+.bubble__container {
+  display: flex;
+  flex-direction: row;
+
+  gap: 3rem;
+}
+
+#image {
+  width: 5rem;
+  height: fit-content;
+
+  border: var(--color-green2) solid 3px;
+  border-radius: 1rem;
+  object-fit: contain;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+h1 {
+  color: var(--color-green1);
+  font-size: 5vh;
+}
+
+p {
+  color: white;
+}

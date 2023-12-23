@@ -6,6 +6,7 @@ const data = [
     position: "Programming Intern",
     desc: "Simulating of ultrasound propogation through spine",
     tools: "MATLAB",
+    source: "sunnyLogo",
   },
   {
     id: 2,
@@ -14,6 +15,7 @@ const data = [
     position: "Programming Intern",
     desc: "Location ultrasound emitters relative to one another",
     tools: "MATLAB",
+    source: "sunnyLogo",
   },
   {
     id: 3,
@@ -22,6 +24,7 @@ const data = [
     position: "Programming Intern",
     desc: "Developing features for a AAA game",
     tools: "Unreal Engine, C++",
+    source: "compulsionGames",
   },
 ];
 

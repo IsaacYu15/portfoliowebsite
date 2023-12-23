@@ -5,10 +5,10 @@ function bio() {
   return (
     <section id="bio">
       <div className="container bio__container">
-        <p>
+        <h2>
           Hi! I'm a student at the University of Waterloo studying Systems
-          Design Engineering, passionate about learning cool things.
-        </p>
+          Design Engineering, passionate about building cool things.
+        </h2>
       </div>
     </section>
   );

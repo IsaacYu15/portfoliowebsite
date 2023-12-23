@@ -5,7 +5,7 @@ import "./experiences.css";
 
 function Experiences() {
   return (
-    <div className="experiences__container">
+    <div className="container experiences__container">
       {experiencesData.map((item) => (
         <Bubble key={item.id} data={item}></Bubble>
       ))}

@@ -1,16 +1,17 @@
 #bio {
   margin-top: 85vh;
   background-color: var(--color-black);
-  padding: 10% 10% 10% 25%;
+  padding: 10% 10% 5% 25%;
 }
 
 .bio__container {
-  padding-left: 10rem;
+  padding-left: 10%;
   display: flex;
   flex-direction: column;
   gap: 3rem;
   border-left: white 3px solid;
 }
-p {
+
+h2 {
   color: white;
 }
