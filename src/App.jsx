@@ -4,8 +4,9 @@ import Header from "./sections/header/Header";
 import Navbar from "./sections/navbar/Navbar";
 import Work from "./sections/work/Work";
 import Bio from "./sections/bio/Bio";
+import Experiences from "./sections/experiences/Experiences";
 
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 
 const App = () => {
   useEffect(() => {
@@ -31,6 +32,7 @@ const App = () => {
       <Navbar />
       <Header />
       <Bio />
+      <Experiences />
       <Work />
       <Contact />
       <Footer />
