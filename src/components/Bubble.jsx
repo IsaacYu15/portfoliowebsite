@@ -12,10 +12,8 @@ function Bubble({ data }) {
       />
 
       <div id="content">
-        <h1>{data.date}</h1>
-        <p>{data.company}</p>
+        <h1>{data.company}</h1>
         <p>{data.position}</p>
-        <p>{data.tools}</p>
       </div>
     </div>
   );

@@ -41,7 +41,7 @@
   --transition: all 500ms ease;
 
   /*COLORS*/
-  --color-black: #161616;
+  --color-black: #232222;
   --color-green1: #cad2c5;
   --color-green2: #84a98c;
   --color-green3: #52796f;
@@ -68,6 +68,6 @@ h2 {
 }
 
 p {
-  font-size: 3vh;
-  font-family: "Syne-SemiBold";
+  font-size: 3.5vh;
+  font-family: "Syne-Regular";
 }

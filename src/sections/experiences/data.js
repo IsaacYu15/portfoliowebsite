@@ -1,12 +1,12 @@
 const data = [
   {
     id: 1,
-    date: 2022,
-    company: "SunnyBrook Focused Ultrasound Lab",
+    date: 2024,
+    company: "Compulsion Games",
     position: "Programming Intern",
-    desc: "Simulating of ultrasound propogation through spine",
-    tools: "MATLAB",
-    source: "sunnyLogo",
+    desc: "Developing features for a AAA game",
+    tools: "Unreal Engine, C++",
+    source: "compulsionGames",
   },
   {
     id: 2,
@@ -19,12 +19,12 @@ const data = [
   },
   {
     id: 3,
-    date: 2024,
-    company: "Compulsion Games",
+    date: 2022,
+    company: "SunnyBrook Focused Ultrasound Lab",
     position: "Programming Intern",
-    desc: "Developing features for a AAA game",
-    tools: "Unreal Engine, C++",
-    source: "compulsionGames",
+    desc: "Simulating of ultrasound propogation through spine",
+    tools: "MATLAB",
+    source: "sunnyLogo",
   },
 ];
 

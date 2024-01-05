@@ -9,7 +9,7 @@
   width: 5rem;
   height: fit-content;
 
-  border: var(--color-green2) solid 3px;
+  border: null solid 5px;
   border-radius: 1rem;
   object-fit: contain;
 }

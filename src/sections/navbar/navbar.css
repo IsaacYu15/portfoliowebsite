@@ -6,7 +6,6 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 9; /*so it sits on top of everything*/
 }
 
 .nav__container {
@@ -16,14 +15,19 @@ nav {
 }
 
 .nav__container a {
-  color: var(--color-black);
+  color: white;
   transition: var(--transition);
 }
 
 .nav__menu {
-  margin-left: 60%;
+  margin-left: 75%;
+  padding: 10px;
+  border-radius: var(--border-radius-3);
+
   display: flex;
-  gap: 30%;
+  gap: 5rem;
+
+  background-color: var(--color-black);
 
   animation: slide-out-nav 1s linear;
   animation-play-state: paused;
