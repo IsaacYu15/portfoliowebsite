@@ -1,8 +1,18 @@
 .bubble__container {
   display: flex;
   flex-direction: row;
-
   gap: 3rem;
+  z-index: 10;
+
+  padding: 0.5rem;
+
+  transition: var(--transition);
+}
+
+.bubble__container:hover {
+  background-color: rgba(228, 255, 236, 0.148);
+  transform: translateX(-1rem);
+  transition: var(--transition);
 }
 
 #image {

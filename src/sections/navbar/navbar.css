@@ -9,9 +9,15 @@ nav {
 }
 
 .nav__container {
+  opacity: 0%;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  animation: text-in 2s cubic-bezier(0.97, 0.01, 0.36, 0.99);
+  animation-delay: 3.5s;
+  animation-fill-mode: forwards;
 }
 
 .nav__container a {
@@ -29,7 +35,7 @@ nav {
 
   background-color: var(--color-black);
 
-  animation: slide-out-nav 1s linear;
+  animation: slide-out-nav 0.75s linear;
   animation-play-state: paused;
   animation-delay: calc(var(--scroll) * -1s);
   animation-fill-mode: forwards;
@@ -37,15 +43,22 @@ nav {
 
 @keyframes slide-out-nav {
   0% {
-    transform: translateY(0%);
-  }
-
-  70% {
-    transform: translateY(0%);
+    opacity: 100%;
   }
 
   100% {
-    transform: translateY(-100%);
     opacity: 0%;
+  }
+}
+
+@keyframes text-in {
+  0% {
+    transform: translateY(2.5rem);
+    opacity: 0%;
+  }
+
+  100% {
+    transform: translateY(0rem);
+    opacity: 100%;
   }
 }
