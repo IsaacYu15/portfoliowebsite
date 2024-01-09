@@ -52,7 +52,7 @@ header {
 .bio__container {
   opacity: 0%;
 
-  border-left: var(--color-black) 3px solid;
+  border-left: var(--color-black) 5px solid;
   color: var(--color-black);
 
   margin-left: 5rem;

@@ -1,5 +1,19 @@
-.card{
-    background: #fbfbfb;
-    padding: 1.5rem;
+.image__container {
+  z-index: 10;
 }
 
+.portfolioImages {
+  width: 10vw;
+  height: 50vh;
+
+  object-fit: cover;
+  vertical-align: middle;
+
+  transition: var(--transition);
+}
+
+.portfolioImages:hover {
+  width: 50vw;
+
+  transition: var(--transition);
+}

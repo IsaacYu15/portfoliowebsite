@@ -15,6 +15,8 @@ function Bubble({ data }) {
         <h1>{data.company}</h1>
         <p>{data.position}</p>
       </div>
+
+      <p id="subheading">{data.date}</p>
     </div>
   );
 }
