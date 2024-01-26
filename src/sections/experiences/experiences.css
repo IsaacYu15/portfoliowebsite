@@ -4,10 +4,7 @@
 
   display: flex;
   flex-direction: column;
-  gap: 0.1rem;
-
-  background-color: var(--color-black);
-  border-left: solid var(--color-green2) 1rem;
+  gap: 0.25rem;
 
   width: 75%;
 }

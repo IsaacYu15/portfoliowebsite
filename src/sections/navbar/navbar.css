@@ -21,23 +21,21 @@ nav {
 }
 
 .nav__container a {
-  color: white;
+  color: var(--colorblack);
   transition: var(--transition);
 }
 
 .nav__menu {
-  margin-left: 75%;
-  padding: 10px;
-  border-radius: var(--border-radius-3);
-
+  margin: auto;
+  justify-content: center;
   display: flex;
-  gap: 5rem;
 
-  background-color: var(--color-black);
+  gap: 70%;
+  border-radius: var(--border-radius-3);
 
   animation: slide-out-nav 0.75s linear;
   animation-play-state: paused;
-  animation-delay: calc(var(--scroll) * -1s);
+  animation-delay: calc(var(--scroll) * -2s);
   animation-fill-mode: forwards;
 }
 

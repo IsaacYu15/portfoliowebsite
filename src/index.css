@@ -63,8 +63,10 @@ li {
 }
 
 h2 {
-  font-size: 4vh;
+  font-size: 5vh;
   font-family: "Syne-SemiBold";
+
+  padding-left: 10%;
 }
 
 p {

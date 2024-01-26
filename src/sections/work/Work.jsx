@@ -6,7 +6,7 @@ const Services = () => {
   return (
     <section id="work">
       <div className="container work__container">
-        <h2>FEATURED PROJECTS</h2>
+        <h2 className="title">FEATURED PROJECTS</h2>
 
         <div className="about__work">
           {data.map((item) => (

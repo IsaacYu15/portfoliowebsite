@@ -6,12 +6,14 @@
 
   padding: 0.5rem;
 
+  border-left: solid var(--color-green2) 1rem;
+  background-color: var(--color-black);
+
   transition: var(--transition);
 }
 
 .bubble__container:hover {
-  background-color: rgba(228, 255, 236, 0.148);
-  transform: translateX(-1rem);
+  transform: translateX(-0.5rem);
   transition: var(--transition);
 }
 

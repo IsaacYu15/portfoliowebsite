@@ -3,7 +3,7 @@
 }
 
 .portfolioImages {
-  width: 10vw;
+  width: 35vw;
   height: 50vh;
 
   object-fit: cover;
@@ -13,7 +13,5 @@
 }
 
 .portfolioImages:hover {
-  width: 50vw;
-
   transition: var(--transition);
 }

@@ -5,11 +5,14 @@ import "./experiences.css";
 
 function Experiences() {
   return (
-    <div className="container experiences__container">
-      {experiencesData.map((item) => (
-        <Bubble key={item.id} data={item}></Bubble>
-      ))}
-    </div>
+    <section>
+      <h2 className="title">EXPERIENCES</h2>
+      <div className="container experiences__container">
+        {experiencesData.map((item) => (
+          <Bubble key={item.id} data={item}></Bubble>
+        ))}
+      </div>
+    </section>
   );
 }
 
