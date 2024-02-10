@@ -10,7 +10,10 @@ const Services = () => {
 
         <div className="about__work">
           {data.map((item) => (
-            <Card key={item.id} props={item} className="about__card"></Card>
+            <div>
+              <Card key={item.id} props={item} className="about__card"></Card>
+              <h3 className="description">{item.title}</h3>
+            </div>
           ))}
         </div>
       </div>

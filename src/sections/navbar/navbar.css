@@ -1,18 +1,27 @@
 nav {
-  width: 50vw; /*cover entire viewport*/
+  width: 100vw; /*cover entire viewport*/
   height: 3rem;
-  margin: 5rem auto auto auto;
+
+  position: fixed;
+  margin: auto;
+
+  animation: text-in 2s cubic-bezier(0.97, 0.01, 0.36, 0.99);
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
 }
 
 .nav__container {
-  margin: auto;
+  margin: 2rem auto auto auto;
+  width: 50vw;
+
   background-color: var(--color-gray);
   border-radius: var(--border-radius-4);
 
   opacity: 0%;
 
-  animation: text-in 2s cubic-bezier(0.97, 0.01, 0.36, 0.99);
-  animation-delay: 1s;
+  animation: slide-out-nav 0.75s linear;
+  animation-play-state: paused;
+  animation-delay: calc(var(--scroll) * -2s);
   animation-fill-mode: forwards;
 }
 

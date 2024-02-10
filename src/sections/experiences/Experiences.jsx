@@ -9,7 +9,9 @@ function Experiences() {
       <div className="container experiences__container">
         <h2 className="title">EXPERIENCES</h2>
         {experiencesData.map((item) => (
-          <Bubble key={item.id} data={item}></Bubble>
+          <div>
+            <Bubble key={item.id} data={item}></Bubble>
+          </div>
         ))}
       </div>
     </section>
