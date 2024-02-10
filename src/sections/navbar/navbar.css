@@ -32,6 +32,10 @@ nav {
   transition: var(--transition);
 }
 
+.nav__container a:hover {
+  border-bottom: 1px solid var(--color-green4);
+}
+
 .nav__menu {
   z-index: 13;
 

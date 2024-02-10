@@ -3,6 +3,7 @@ import Header from "./sections/header/Header";
 import Navbar from "./sections/navbar/Navbar";
 import Work from "./sections/work/Work";
 import Experiences from "./sections/experiences/Experiences";
+import About from "./sections/about/About";
 
 import { useEffect } from "react";
 
@@ -26,9 +27,15 @@ const App = () => {
 
   return (
     //import componets
+
+    //TODOS:
+    //-EVEN SPACING IN BETWEEN EACH COMPONENT
+    //-SCUFFED HEADER AND ABOUT ME
+    //-LINK THOSE DEVLOGSSS
     <main>
       <Navbar />
       <Header />
+      <About />
       <Experiences />
       <Work />
       <Contact />
