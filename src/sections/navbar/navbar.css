@@ -1,4 +1,6 @@
 nav {
+  z-index: 13;
+
   width: 100vw; /*cover entire viewport*/
   height: 3rem;
 
@@ -13,11 +15,10 @@ nav {
 }
 
 .nav__container {
+  z-index: 13;
+
   margin: 2rem auto auto auto;
   width: 50vw;
-
-  background-color: var(--color-gray);
-  border-radius: var(--border-radius-4);
 
   animation: slide-out-nav 0.75s linear;
   animation-play-state: paused;
@@ -26,11 +27,14 @@ nav {
 }
 
 .nav__container a {
+  z-index: 13;
   color: var(--color-black);
   transition: var(--transition);
 }
 
 .nav__menu {
+  z-index: 13;
+
   margin: auto;
   justify-content: center;
   display: flex;
