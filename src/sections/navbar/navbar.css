@@ -1,27 +1,23 @@
 nav {
-  width: 100vw; /*cover entire viewport*/
-  height: 7rem;
-  display: grid;
-  place-items: center; /*place container in the middle*/
-  position: fixed;
-  top: 0;
-  left: 0;
+  width: 50vw; /*cover entire viewport*/
+  height: 3rem;
+  margin: 5rem auto auto auto;
 }
 
 .nav__container {
+  margin: auto;
+  background-color: var(--color-gray);
+  border-radius: var(--border-radius-4);
+
   opacity: 0%;
 
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
   animation: text-in 2s cubic-bezier(0.97, 0.01, 0.36, 0.99);
-  animation-delay: 3.5s;
+  animation-delay: 1s;
   animation-fill-mode: forwards;
 }
 
 .nav__container a {
-  color: var(--colorblack);
+  color: var(--color-black);
   transition: var(--transition);
 }
 
@@ -30,8 +26,9 @@ nav {
   justify-content: center;
   display: flex;
 
-  gap: 70%;
-  border-radius: var(--border-radius-3);
+  padding: 0.5rem;
+
+  gap: 5vw;
 
   animation: slide-out-nav 0.75s linear;
   animation-play-state: paused;

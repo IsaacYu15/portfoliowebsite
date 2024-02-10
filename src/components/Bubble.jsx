@@ -5,18 +5,20 @@ function Bubble({ data }) {
   console.log(data.source);
   return (
     <div className="container bubble__container">
-      <img
-        id="image"
-        src={require("../assets/" + data.source + ".png")}
-        alt="logo"
-      />
-
       <div id="content">
-        <h1>{data.company}</h1>
-        <p>{data.position}</p>
+        <img
+          id="image"
+          src={require("../assets/" + data.source + ".png")}
+          alt="logo"
+        />
+
+        <div id="details">
+          <h1>{data.company}</h1>
+          <p>{data.position}</p>
+        </div>
       </div>
 
-      <p id="subheading">{data.date}</p>
+      <p id="date">{data.date}</p>
     </div>
   );
 }
