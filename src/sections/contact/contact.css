@@ -1,21 +1,22 @@
-#contact{
-    max-width: 50%;
-    margin: auto;
+#contact {
+  width: 80%;
+  margin: auto;
 }
 
 .contact__container {
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  border-top: 5px solid var(--color-green4);
 
-    margin: auto;
-
-    border-top: 5px #f1f2f3 solid;
-    border-bottom: 5px #f1f2f3 solid;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 2rem;
-
-    padding: 1rem 0 1rem 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 2rem;
 }
 
+.contact__container a {
+  margin-top: 0.75rem;
+  font-size: 2rem;
+  z-index: 13;
+  color: var(--color-green4);
+}

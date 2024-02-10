@@ -32,24 +32,3 @@ const card = ({ className, onClick, props }) => {
 };
 
 export default card;
-/*
-
-      <div className="right">
-        <h3>{props.title}</h3>
-        <p>{props.desc}</p>
-        <small>{props.lang}</small>
-
-        <div className="links">
-          {props.link !== "N/A" && (
-            <a href={props.link} target="_blank" rel="noopener noreferrer">
-              <AiOutlineLink />
-            </a>
-          )}
-          {props.git !== "N/A" && (
-            <a href={props.git} target="_blank" rel="noopener noreferrer">
-              <AiOutlineGithub />
-            </a>
-          )}
-        </div>
-      </div>
-      */

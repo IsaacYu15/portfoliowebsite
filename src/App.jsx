@@ -1,5 +1,4 @@
 import Contact from "./sections/contact/Contact";
-import Footer from "./sections/footer/Footer";
 import Header from "./sections/header/Header";
 import Navbar from "./sections/navbar/Navbar";
 import Work from "./sections/work/Work";
@@ -33,7 +32,6 @@ const App = () => {
       <Experiences />
       <Work />
       <Contact />
-      <Footer />
     </main>
   );
 };
