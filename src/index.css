@@ -10,21 +10,15 @@
 }
 
 @font-face {
-  font-family: "Syne-Bold";
-  src: local("Syne-Bold"),
-    url("./fonts/static/Syne-Bold.ttf") format("truetype");
+  font-family: "Unbounded-Regular";
+  src: local("Unbounded-Regular"),
+    url("./fonts/Unbounded/static/Unbounded-Regular.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "Syne-Regular";
-  src: local("Syne-Regular"),
-    url("./fonts/static/Syne-Regular.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Syne-SemiBold";
-  src: local("Syne-SemiBold"),
-    url("./fonts/static/Syne-SemiBold.ttf") format("truetype");
+  font-family: "Nunito-Regular";
+  src: local("Nunito-Regular"),
+    url("./fonts/Nunito/static/Nunito-Regular.ttf") format("truetype");
 }
 
 :root {
@@ -57,34 +51,5 @@ html {
 }
 
 h1 {
-  font-family: "Syne-Bold";
-}
-
-li {
-  font-size: 3vh;
-  font-family: "Syne-Regular";
-}
-
-h2 {
-  font-size: 6vh;
-  font-family: "Syne-SemiBold";
-
-  color: var(--color-green4);
-}
-
-h3 {
-  font-size: 4vh;
-  font-family: "Syne-SemiBold";
-
-  color: var(--color-green3);
-}
-
-p {
-  font-size: 3.5vh;
-  font-family: "Syne-Regular";
-}
-
-small {
-  font-family: "Syne-Regular";
-  color: var(--color-green1);
+  font-family: "Unbounded-Regular";
 }

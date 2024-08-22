@@ -1,12 +1,12 @@
 import "./header.css";
-import headshot from "../../assets/headshot3.PNG";
+import Navbar from "../navbar/Navbar.jsx";
 
 const Header = () => {
   return (
     <header id="header">
-      <div class="bg"></div>
       <div className="textWrapper">
         <h1 className="headerText">ISAAC YU</h1>
+        <Navbar/>
       </div>
     </header>
   );

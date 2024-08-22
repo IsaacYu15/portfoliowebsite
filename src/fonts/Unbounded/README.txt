@@ -1,22 +1,25 @@
-Syne Variable Font
-==================
+Unbounded Variable Font
+=======================
 
-This download contains Syne as both a variable font and static fonts.
+This download contains Unbounded as both a variable font and static fonts.
 
-Syne is a variable font with this axis:
+Unbounded is a variable font with this axis:
   wght
 
 This means all the styles are contained in a single file:
-  Syne-VariableFont_wght.ttf
+  Unbounded-VariableFont_wght.ttf
 
 If your app fully supports variable fonts, you can now pick intermediate styles
 that aren’t available as static fonts. Not all apps support variable fonts, and
-in those cases you can use the static font files for Syne:
-  static/Syne-Regular.ttf
-  static/Syne-Medium.ttf
-  static/Syne-SemiBold.ttf
-  static/Syne-Bold.ttf
-  static/Syne-ExtraBold.ttf
+in those cases you can use the static font files for Unbounded:
+  static/Unbounded-ExtraLight.ttf
+  static/Unbounded-Light.ttf
+  static/Unbounded-Regular.ttf
+  static/Unbounded-Medium.ttf
+  static/Unbounded-SemiBold.ttf
+  static/Unbounded-Bold.ttf
+  static/Unbounded-ExtraBold.ttf
+  static/Unbounded-Black.ttf
 
 Get started
 -----------

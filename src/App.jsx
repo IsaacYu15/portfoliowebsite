@@ -28,17 +28,8 @@ const App = () => {
   return (
     //import componets
 
-    //TODOS:
-    //-EVEN SPACING IN BETWEEN EACH COMPONENT
-    //-SCUFFED HEADER AND ABOUT ME
-    //-LINK THOSE DEVLOGSSS
     <main>
-      <Navbar />
       <Header />
-      <About />
-      <Experiences />
-      <Work />
-      <Contact />
     </main>
   );
 };
