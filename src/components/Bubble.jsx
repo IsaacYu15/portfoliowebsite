@@ -13,7 +13,7 @@ function Bubble({ data }) {
         />
 
         <div id="details">
-          <h1>{data.company}</h1>
+          <h2>{data.company}</h2>
           <p>{data.position}</p>
         </div>
       </div>

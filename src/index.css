@@ -21,6 +21,13 @@
     url("./fonts/Nunito/static/Nunito-Regular.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "Nunito-Bold";
+  src: local("Nunito-Bold"),
+    url("./fonts/Nunito/static/Nunito-Bold.ttf") format("truetype");
+}
+
+
 :root {
   /*GENERAL CONTAINER VARIABLES*/
   --container-width-lg: 76%; /*for desktop*/
@@ -52,4 +59,25 @@ html {
 
 h1 {
   font-family: "Unbounded-Regular";
+}
+
+a {
+  font-family: "Nunito-Regular";
+  font-size: 2.5vh;
+
+  color: var(--color-black);
+}
+
+p {
+  font-family: "Nunito-Regular";
+  font-size: 2.0vh;
+
+  color: var(--color-black);
+}
+
+h2 {
+  font-family: "Nunito-Bold";
+  font-size: 3.0vh;
+
+  color: var(--color-black);
 }

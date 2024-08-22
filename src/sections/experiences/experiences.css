@@ -1,15 +1,7 @@
 .experiences__container {
-  padding: 2%;
-
-  margin-top: 5rem;
-  margin-left: 5rem;
-
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
 
-  width: 75%;
-
-  background-color: var(--color-gray);
-  border-radius: var(--border-radius-2);
+  align-items: flex-start;
 }

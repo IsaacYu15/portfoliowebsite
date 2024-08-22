@@ -7,7 +7,7 @@ function Experiences() {
   return (
     <section id="experiences">
       <div className="container experiences__container">
-        <h2 className="title">EXPERIENCES</h2>
+        <h2 className="title">PREV AT:</h2>
         {experiencesData.map((item) => (
           <div>
             <Bubble key={item.id} data={item}></Bubble>

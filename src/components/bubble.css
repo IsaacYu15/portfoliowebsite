@@ -6,10 +6,9 @@
   gap: 3rem;
   z-index: 10;
 
-  padding-left: 1.5rem;
+  padding-left: 1rem;
+  width: 50vw;
   border-left: solid var(--color-green2) 0.5rem;
-
-  transition: var(--transition);
 }
 
 #content {
@@ -19,7 +18,7 @@
 }
 
 #image {
-  width: 5rem;
+  width: 4rem;
   height: fit-content;
 
   border: null solid 5px;
@@ -27,21 +26,14 @@
   object-fit: contain;
 }
 
-#detail {
+#details {
   display: flex;
   flex-direction: column;
   gap: 0.2rem;
+  align-items: flex-start;
+  text-align: left
 }
 
 #date {
-  margin-right: 0;
-}
-
-h1 {
-  color: var(--color-green4);
-  font-size: 5vh;
-}
-
-p {
-  color: var(--color-green2);
+  align-items: flex-end;
 }

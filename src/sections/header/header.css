@@ -4,7 +4,7 @@ header {
   width: 100%;
 
   display: grid;
-  align-items: center;
+  place-items: center;
 }
 
 .headerText {
@@ -32,14 +32,17 @@ header {
   animation-fill-mode: forwards;
 }
 
-.textWrapper {
-  height: 50%;
+.nav__container {
   width: 100%;
+  margin-bottom: 2rem;
+}
 
-  text-align: center;
-  
-  display: grid;
-  align-items: center;
+.textWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  gap: 1rem;
+
 }
 
 @keyframes text-in {
