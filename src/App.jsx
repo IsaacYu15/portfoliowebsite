@@ -4,11 +4,6 @@ import Navbar from "./sections/navbar/Navbar";
 import Work from "./sections/work/Work";
 import Experiences from "./sections/experiences/Experiences";
 import About from "./sections/about/About";
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-} from "react-router-dom";
 
 import { useEffect } from "react";
 
@@ -31,17 +26,11 @@ const App = () => {
   }, []);
 
   return (
-    <Router>
-        <Navbar />
-            <Routes>
-                <Route path="/about" element={<Work />} />
-                <Route
-                    path="/contact"
-                    element={<Experiences/>}
-                />
-          </Routes>
-      </Router>
+    //import componets
 
+    <main>
+      <Header />
+    </main>
   );
 };
 
