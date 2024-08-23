@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     //ul is for bullet point list in which order does not matter
     <nav>
-        <ul className="nav__menu">
+        <div className="nav__menu">
           {
             //iterate through all the items in data, setting the link to the name
             data.filter(item => item.id >= 1).map(item => ( 
@@ -23,6 +23,7 @@ const Navbar = () => {
 
            
           }
+          
           
           <a className="icon"
             href="https://www.youtube.com/channel/UCrXvYNZslV1yCXd2Rz7Z9gw"
@@ -48,7 +49,7 @@ const Navbar = () => {
             <AiOutlineGithub />
           </a>
           
-        </ul>
+        </div>
     </nav>
   );
 };
