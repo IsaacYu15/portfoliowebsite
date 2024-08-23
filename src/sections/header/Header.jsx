@@ -10,7 +10,6 @@ const Header = () => {
         <h1 className="headerText">ISAAC YU</h1>
         <div className="nav__container">
           <Navbar/>
-
         </div>
       </div>
     </header>

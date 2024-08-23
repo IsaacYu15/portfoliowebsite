@@ -14,7 +14,7 @@ const Navbar = () => {
         <ul className="nav__menu">
           {
             //iterate through all the items in data, setting the link to the name
-            data.map((item) => (
+            data.filter(item => item.id >= 1).map(item => ( 
               <li key={item.id}>
                 <a className="routes" href={item.link}>{item.title}</a>
                 <div className="underline"></div>

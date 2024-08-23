@@ -3,11 +3,13 @@ import "./about.css";
 import Experiences from "../experiences/Experiences"
 import headshot from "../../assets/headshot4.png";
 import Contact from "../contact/Contact";
+import Nav_Header from "../navbar/Navbar_header"
 
 function About() {
   return (
     <section id="about">
       <div className="container about__container">
+        <Nav_Header/>
         <img id="headshot" src={headshot} alt="logo" />
 
         <div className="contents">

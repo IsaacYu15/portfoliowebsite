@@ -5,6 +5,11 @@
   align-items: center;
 }
 
+.nav_header{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
 .work__container {
   margin-top: 2.5rem;
   display: flex;
