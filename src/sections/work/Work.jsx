@@ -6,7 +6,6 @@ import Navbar from "../navbar/Navbar";
 const Services = () => {
   return (
     <div>
-      <Navbar></Navbar>
       <section id="work">
         <div className="container work__container">
           <h2 className="title">FEATURED PROJECTS</h2>

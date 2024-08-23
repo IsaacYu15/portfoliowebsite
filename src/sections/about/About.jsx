@@ -1,22 +1,32 @@
 import React from "react";
 import "./about.css";
-import headshot from "../../assets/headshot3.PNG";
+import Experiences from "../experiences/Experiences"
+import headshot from "../../assets/headshot4.png";
+import Contact from "../contact/Contact";
+<co></co>;
 
-function Experiences() {
+function About() {
   return (
     <section id="about">
       <div className="container about__container">
+        <img id="headshot" src={headshot} alt="logo" />
+
         <div className="contents">
-          <h3>
+          <p>
             My name is Isaac and I'm a student studying Systems Design
-            Engineering at the University of Waterloo, passionate about building
-            cool things :D
-          </h3>
-          <img id="headshot" src={headshot} alt="logo" />
+            Engineering at the University of Waterloo! I'm passionate about building
+            cool things whether it be in the realm of web development, computer graphics or games! 
+            When I'm not working I enjoy playing chess and rock climbing :D
+          </p>
+          <Experiences/>
+          
         </div>
       </div>
+
+      <Contact/>
+      
     </section>
   );
 }
 
-export default Experiences;
+export default About;

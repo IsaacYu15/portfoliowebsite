@@ -1,9 +1,5 @@
 import Contact from "./sections/contact/Contact";
 import Header from "./sections/header/Header";
-import Navbar from "./sections/navbar/Navbar";
-import Work from "./sections/work/Work";
-import Experiences from "./sections/experiences/Experiences";
-import About from "./sections/about/About";
 
 import { useEffect } from "react";
 
@@ -30,6 +26,7 @@ const App = () => {
 
     <main>
       <Header />
+      <Contact/>
     </main>
   );
 };
