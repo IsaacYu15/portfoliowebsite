@@ -2,13 +2,12 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
   gap: 3rem;
   z-index: 10;
-
   padding-left: 1rem;
-  width: 50vw;
+  width: 100%; 
   border-left: solid var(--color-green2) 0.5rem;
+  box-sizing: border-box; 
 }
 
 #content {
