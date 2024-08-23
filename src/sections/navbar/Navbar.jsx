@@ -1,6 +1,11 @@
 import "./navbar.css";
-
 import data from "./data";
+import {
+  AiOutlineYoutube,
+  AiOutlineLinkedin,
+  AiOutlineGithub,
+} from "react-icons/ai";
+
 
 const Navbar = () => {
   return (
@@ -11,11 +16,37 @@ const Navbar = () => {
             //iterate through all the items in data, setting the link to the name
             data.map((item) => (
               <li key={item.id}>
-                <a href={item.link}>{item.title}</a>
+                <a className="routes" href={item.link}>{item.title}</a>
                 <div className="underline"></div>
               </li>
             ))
+
+           
           }
+          
+          <a className="icon"
+            href="https://www.youtube.com/channel/UCrXvYNZslV1yCXd2Rz7Z9gw"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <AiOutlineYoutube />
+          </a>
+
+          <a className="icon"
+            href="https://www.linkedin.com/in/isaac-yu-11010522a/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <AiOutlineLinkedin />
+          </a>
+
+          <a className="icon"
+            href="https://github.com/IsaacYu15"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <AiOutlineGithub />
+          </a>
           
         </ul>
     </nav>

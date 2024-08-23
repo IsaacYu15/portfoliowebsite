@@ -2,22 +2,21 @@
   justify-content: center;
   display: flex;
 
-  padding: 0.5rem;
-
   gap: 5vw;
+ 
 }
 
-a {
+.routes {
   position: relative;
   color: #000;
   text-decoration: none;
 }
 
-a:hover {
+.routes:hover {
   color: #000;
 }
 
-a::before {
+.routes::before {
   content: "";
   position: absolute;
   display: block;
@@ -30,6 +29,23 @@ a::before {
   transition: transform 0.3s ease;
 }
 
-a:hover::before {
+.icon {
+  font-size: 2rem;
+}
+
+@media (max-width: 768px) {
+  .icon {
+    font-size: 1.5rem;
+  }
+
+  .nav__menu {
+    flex-direction: column;
+    gap: 1vw;
+   
+  }
+  
+}
+
+.nav__menu a:hover::before {
   transform: scaleX(1);
 }

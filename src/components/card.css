@@ -2,58 +2,45 @@
   z-index: 12;
   position: relative;
 
-  background-color: var(--color-black);
   border-radius: var(--border-radius-3);
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem
 }
 
 .portfolioImages {
   z-index: 12;
   position: relative;
 
-  opacity: 1;
-  width: 40vw;
+  opacity: 100%;
+  width: 100%;
   height: 35vh;
 
   object-fit: cover;
   vertical-align: middle;
 
   border-radius: var(--border-radius-3);
+  transition: var(--transition);
 }
 
-.overlayContents {
-  opacity: 0;
-  z-index: 13;
+.portfolioImages:hover{
+  opacity: 70%;
+}
 
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-
+.title_line{
   display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-
-  width: 100%;
-  height: 100%;
-  border-radius: var(--border-radius-3);
-  padding: 1rem;
-
-  background-color: var(--color-black);
-
-  transition: var(--transition);
+  justify-content: space-between; 
+  align-items: center; 
+  width: 100%; 
 }
 
-.overlayContents p {
-  color: white;
+.title_line a{
+  margin-left: 0.5rem;
+  font-size: 3.0vh;
+  display: inline-block;
 }
 
-.overlayContents a {
-  color: var(--color-green2);
-  font-size: 1.5rem;
-}
-
-.overlayContents:hover {
-  opacity: 1;
-
-  transition: var(--transition);
+p {
+  margin-top: 5px;
 }

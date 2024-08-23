@@ -27,6 +27,12 @@
     url("./fonts/Nunito/static/Nunito-Bold.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "Nunito-Light";
+  src: local("Nunito-Light"),
+    url("./fonts/Nunito/static/Nunito-Light.ttf") format("truetype");
+}
+
 
 :root {
   /*GENERAL CONTAINER VARIABLES*/
@@ -55,6 +61,10 @@
 
 html {
   scroll-behavior: smooth;
+  background-color: #FAF9F6;
+
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 h1 {
@@ -63,21 +73,49 @@ h1 {
 
 a {
   font-family: "Nunito-Regular";
-  font-size: 2.5vh;
+  font-size: 1.3rem;
 
   color: var(--color-black);
 }
 
 p {
-  font-family: "Nunito-Regular";
-  font-size: 3.0vh;
+  font-family: "Nunito-Light";
+  font-size: 1.2rem;
 
   color: var(--color-black);
 }
 
 h2 {
   font-family: "Nunito-Bold";
-  font-size: 3.0vh;
+  font-size: 1.5rem;
 
   color: var(--color-black);
+}
+
+small
+{
+  font-family: "Nunito-Bold";
+}
+
+a {
+  transition: var(--transition);
+}
+
+@media (max-width: 768px) {
+  p {
+    font-size: 0.9rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  a {
+    font-size: 1.0rem;
+  }
+  
+}
+
+a:hover{
+  transform: translateY(-5px)
 }

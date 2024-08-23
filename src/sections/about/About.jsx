@@ -3,7 +3,6 @@ import "./about.css";
 import Experiences from "../experiences/Experiences"
 import headshot from "../../assets/headshot4.png";
 import Contact from "../contact/Contact";
-<co></co>;
 
 function About() {
   return (
@@ -19,11 +18,11 @@ function About() {
             When I'm not working I enjoy playing chess and rock climbing :D
           </p>
           <Experiences/>
-          
+          <Contact/>
         </div>
       </div>
 
-      <Contact/>
+      
       
     </section>
   );

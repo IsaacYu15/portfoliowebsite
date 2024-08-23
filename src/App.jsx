@@ -22,11 +22,8 @@ const App = () => {
   }, []);
 
   return (
-    //import componets
-
     <main>
       <Header />
-      <Contact/>
     </main>
   );
 };

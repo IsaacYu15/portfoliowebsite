@@ -37,3 +37,10 @@
 #date {
   align-items: flex-end;
 }
+
+@media (max-width: 768px) {
+  #image {
+    width: 0rem;
+    opacity: 0%;
+  }
+}

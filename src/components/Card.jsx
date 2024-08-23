@@ -5,15 +5,15 @@ import "./card.css";
 const card = ({ className, onClick, props }) => {
   return (
     <div className="container image__container">
-      <img
-        className="portfolioImages"
-        src={require("../assets/" + props.source + ".png")}
-        alt="logo"
-      />
-      <div className="overlayContents">
-        <p>{props.desc}</p>
-        <small>{props.lang}</small>
-
+       <a className="image_link" href={props.git !== "N/A" ? props.git : props.link} target="_blank" rel="noopener noreferrer">
+          <img
+            className="portfolioImages"
+            src={require("../assets/" + props.source + ".png")}
+            alt="logo"
+          />
+        </a>
+      <div className="title_line">
+        <h1 className="description">{props.title}</h1>
         <div className="links">
           {props.link !== "N/A" && (
             <a href={props.link} target="_blank" rel="noopener noreferrer">
@@ -25,8 +25,14 @@ const card = ({ className, onClick, props }) => {
               <AiOutlineGithub />
             </a>
           )}
-        </div>
       </div>
+      </div>
+
+      <small>{props.lang}</small>
+      <p>{props.desc}</p>
+        
+
+
     </div>
   );
 };

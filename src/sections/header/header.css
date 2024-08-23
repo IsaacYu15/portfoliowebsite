@@ -3,12 +3,14 @@ header {
   height: 100%;
   width: 100%;
 
-  display: grid;
-  place-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .headerText {
-  font-size: 20vh;
+  font-size: 10rem;
+  white-space: nowrap;
   opacity: 0%;
 
   background: linear-gradient(
@@ -27,14 +29,33 @@ header {
   background-size: 300%;
   background-position: var(--mousePos);
 
-  animation: text-in 2s cubic-bezier(0.97, 0.01, 0.36, 0.99);
-  animation-delay: 0.5s;
+  animation: text-in 1.5s cubic-bezier(0.97, 0.01, 0.36, 0.99);
+  animation-delay: 0.2s;
   animation-fill-mode: forwards;
+
+
+}
+
+@media (max-width: 1024px) {
+  .headerText {
+    font-size: 7rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .headerText {
+    font-size: 4rem;
+  }
 }
 
 .nav__container {
+  opacity: 0%;
   width: 100%;
   margin-bottom: 2rem;
+
+  animation: text-in 1.5s cubic-bezier(0.97, 0.01, 0.36, 0.99);
+  animation-delay: 0.4s;
+  animation-fill-mode: forwards;
 }
 
 .textWrapper {

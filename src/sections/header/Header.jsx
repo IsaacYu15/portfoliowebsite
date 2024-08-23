@@ -1,5 +1,6 @@
 import "./header.css";
 import Navbar from "../navbar/Navbar.jsx";
+import Contact from "../contact/Contact.jsx";
 
 
 const Header = () => {
@@ -9,8 +10,8 @@ const Header = () => {
         <h1 className="headerText">ISAAC YU</h1>
         <div className="nav__container">
           <Navbar/>
-        </div>
 
+        </div>
       </div>
     </header>
   );
