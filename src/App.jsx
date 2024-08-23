@@ -2,6 +2,7 @@ import Contact from "./sections/contact/Contact";
 import Header from "./sections/header/Header";
 
 import { useEffect } from "react";
+import Navbar from "./sections/navbar/Navbar";
 
 const App = () => {
   useEffect(() => {

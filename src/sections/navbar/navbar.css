@@ -1,19 +1,23 @@
 .nav__menu {
   width: 100%;
-  display: flex; 
+  display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: center; 
-  padding: 0;
-  margin: 0;
-  background-color: blue;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  flex: 1;
+}
+
+.nav__menu li {
+  align-items: center;
 }
 
 .routes {
-  position: relative;
   color: #000;
   text-decoration: none;
-  
 }
 
 .icon {
@@ -46,14 +50,13 @@
     flex-direction: column;
     gap: 1vw;
   }
-  
 }
 
 .nav__menu a:hover::before {
   transform: scaleX(1);
 }
 
-a{
-  padding:0;
+a {
+  padding: 0;
   margin: 0;
 }
