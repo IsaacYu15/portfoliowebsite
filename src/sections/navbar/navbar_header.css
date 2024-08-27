@@ -2,8 +2,8 @@
   justify-content: center;
   display: flex;
 
-  gap: 0.5rem;
- 
+  gap: 3rem;
+  
 }
 
 .route_container{
@@ -39,6 +39,7 @@
 @media (max-width: 768px) {
   .nav__menu {
     flex-direction: column;
+    gap: 0.5rem;
   }
   
   a{

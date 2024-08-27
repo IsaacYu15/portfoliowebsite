@@ -14,7 +14,6 @@ const Navbar = () => {
                     <a className="routes" href={item.link}>{item.title}</a>
                     <div className="underline"></div>
                   </li>
-                <p>/</p>
               </div>
 
             ))
