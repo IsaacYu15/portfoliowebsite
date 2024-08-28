@@ -1,5 +1,5 @@
 import React from "react";
-import { AiOutlineGithub, AiOutlineLink } from "react-icons/ai";
+import { AiOutlineGithub, AiOutlineLink, AiOutlineYoutube } from "react-icons/ai";
 import "./card.css";
 
 const card = ({ className, onClick, props }) => {
@@ -18,6 +18,11 @@ const card = ({ className, onClick, props }) => {
           {props.link !== "N/A" && (
             <a href={props.link} target="_blank" rel="noopener noreferrer">
               <AiOutlineLink />
+            </a>
+          )}
+          {props.youtube !== "N/A" && (
+            <a href={props.youtube} target="_blank" rel="noopener noreferrer">
+              <AiOutlineYoutube />
             </a>
           )}
           {props.git !== "N/A" && (

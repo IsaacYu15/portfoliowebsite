@@ -7,7 +7,8 @@ const data = [
     desc:
       "VR surgery application that mimics features such as grabbing, cutting and suturing.",
     lang: "Unity, C#, Oculus Integration",
-    link: "https://www.youtube.com/watch?v=iJSWnNqPqfo",
+    link: "N/A",
+    youtube: "https://www.youtube.com/watch?v=iJSWnNqPqfo",
     git: "https://github.com/IsaacYu15/VR-Surgery",
   },
 
@@ -19,6 +20,7 @@ const data = [
       "Rendering 3D objects from .obj files under various materials and transformations",
     lang: "C++",
     link: "https://hungry-tray-2e2.notion.site/RAYTRACING-FROM-SCRATCH-4053ea725f994ca787ef0a7a890eeb55?pvs=74",
+    youtube: "N/A",
     git: "https://github.com/IsaacYu15/RaytracingFromScratch",
   },
 
@@ -29,7 +31,8 @@ const data = [
     desc:
       "An app for managing / budgeting Waterloo's debit card",
     lang: "Postgres, Express, React, Node",
-    link: "https://hungry-tray-2e2.notion.site/RAYTRACING-FROM-SCRATCH-4053ea725f994ca787ef0a7a890eeb55?pvs=74",
+    link: "N/A",
+    youtube: "N/A",
     git: "https://github.com/IsaacYu15/WATCard",
   },
 
@@ -40,7 +43,8 @@ const data = [
     desc:
       "Generates walking animations for a spider in real-time",
     lang: "Unity, C#",
-    link: "https://www.youtube.com/watch?v=AifGsKtQZbg",
+    link: "N/A",
+    youtube: "https://www.youtube.com/watch?v=AifGsKtQZbg",
     git: "https://github.com/IsaacYu15/ProceduralWalkingAnimation",
   },
 
@@ -51,7 +55,8 @@ const data = [
     desc:
       "Simulating the behaviour of schools of fish",
     lang: "Unity, C#",
-    link: "https://www.youtube.com/watch?v=hVDA2jKtwXM&list=PLNU3z4IRiDwNV2LOxBC6R3CmT7_a09eHN&index=2",
+    link: "N/A",
+    youtube: "https://www.youtube.com/watch?v=hVDA2jKtwXM&list=PLNU3z4IRiDwNV2LOxBC6R3CmT7_a09eHN&index=2",
     git: "https://github.com/IsaacYu15/Boids-Flocking-Algorithm",
   },
 
@@ -62,7 +67,8 @@ const data = [
     desc:
       "A 2D platformer with over 30 levels, endless mode, and skins",
     lang: "Unity, C#",
-    link: "https://www.youtube.com/watch?v=xSwq6TVdwE0",
+    link: "N/A",
+    youtube: "https://www.youtube.com/watch?v=xSwq6TVdwE0",
     git: "N/A",
   },
 
@@ -74,6 +80,7 @@ const data = [
       "Flash card game that won 1st Place Overall & Best Productivity Hack at Clock Hacks",
     lang: "Unity, C#",
     link: "https://devpost.com/software/spaced-out-fbv7tz",
+    youtube: "https://www.youtube.com/watch?v=G3Pc61B7gCo&embeds_referring_euri=https%3A%2F%2Fdevpost.com%2F&source_ve_path=OTY3MTQ",
     git: "https://github.com/IsaacYu15/ClockHacks_SPACEOUT",
   },
 
