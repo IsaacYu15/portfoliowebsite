@@ -2,18 +2,6 @@ const data = [
 
   {
     id: 1,
-    source: "vrsurgeryShowcase",
-    title: "VR SURGERY",
-    desc:
-      "VR surgery application that mimics features such as grabbing, cutting and suturing.",
-    lang: "Unity, C#, Oculus Integration",
-    link: "N/A",
-    youtube: "https://www.youtube.com/watch?v=iJSWnNqPqfo",
-    git: "https://github.com/IsaacYu15/VR-Surgery",
-  },
-
-  {
-    id: 2,
     source: "raytracingfromscratch",
     title: "RAYTRACER",
     desc:
@@ -22,6 +10,18 @@ const data = [
     link: "https://hungry-tray-2e2.notion.site/RAYTRACING-FROM-SCRATCH-4053ea725f994ca787ef0a7a890eeb55?pvs=74",
     youtube: "N/A",
     git: "https://github.com/IsaacYu15/RaytracingFromScratch",
+  },
+
+  {
+    id: 2,
+    source: "vrsurgeryShowcase",
+    title: "VR SURGERY",
+    desc:
+      "VR surgery application that mimics features such as grabbing, cutting and suturing.",
+    lang: "Unity, C#, Oculus Integration",
+    link: "N/A",
+    youtube: "https://www.youtube.com/watch?v=iJSWnNqPqfo",
+    git: "https://github.com/IsaacYu15/VR-Surgery",
   },
 
   {
