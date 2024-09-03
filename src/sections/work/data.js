@@ -26,18 +26,6 @@ const data = [
 
   {
     id: 3,
-    source: "watcard",
-    title: "WATCARD",
-    desc:
-      "An app for managing / budgeting Waterloo's debit card",
-    lang: "Postgres, Express, React, Node",
-    link: "N/A",
-    youtube: "N/A",
-    git: "https://github.com/IsaacYu15/WATCard",
-  },
-
-  {
-    id: 4,
     source: "ProceduralShowcase",
     title: "PROCEDURAL ANIMATION",
     desc:
@@ -49,7 +37,7 @@ const data = [
   },
 
   {
-    id: 5,
+    id: 4,
     source: "flockingmodel",
     title: "FLOCKING MODEL",
     desc:
@@ -58,6 +46,18 @@ const data = [
     link: "N/A",
     youtube: "https://www.youtube.com/watch?v=hVDA2jKtwXM&list=PLNU3z4IRiDwNV2LOxBC6R3CmT7_a09eHN&index=2",
     git: "https://github.com/IsaacYu15/Boids-Flocking-Algorithm",
+  },
+
+  {
+    id: 5,
+    source: "watcard",
+    title: "WATCARD",
+    desc:
+      "An app for managing / budgeting Waterloo's debit card",
+    lang: "Postgres, Express, React, Node",
+    link: "N/A",
+    youtube: "N/A",
+    git: "https://github.com/IsaacYu15/WATCard",
   },
 
   {
@@ -91,6 +91,7 @@ const data = [
     desc:
       "Determines all words formed by letters connected diagonaly or adjacently in a 4x4 grid of letters",
     lang: "Javascript, HTML, CSS",
+    youtube: "N/A",
     link: "https://word-hunt-solver-fspl8321s-isaacyu15.vercel.app/",
     git: "https://github.com/IsaacYu15/WordHuntSolver",
   },
