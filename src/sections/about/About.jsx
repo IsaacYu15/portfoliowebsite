@@ -25,7 +25,7 @@ function About() {
 
        <h1>My Deep Link Test page</h1>
        <p><a href="unitydl://mylink">Launch</a></p>
-       <p><a href="unitydl://mylink/pN6FjLazzVSgCPu9IWAtkyR4FGD2">Launch with Parameter</a></p>
+       <p><a href="unitydl://mylink/invite/pN6FjLazzVSgCPu9IWAtkyR4FGD2">Launch with Parameter</a></p>
 
       </div>
 
