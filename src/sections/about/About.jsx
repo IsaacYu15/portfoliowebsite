@@ -22,6 +22,11 @@ function About() {
           <Experiences/>
           <Contact/>
         </div>
+
+       <h1>My Deep Link Test page</h1>
+       <p><a href="unitydl://mylink">Launch</a></p>
+       <p><a href="unitydl://mylink?parameter">Launch with Parameter</a></p>
+
       </div>
 
       
