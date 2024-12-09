@@ -23,10 +23,6 @@ function About() {
           <Contact/>
         </div>
 
-       <h1>My Deep Link Test page</h1>
-       <p><a href="unitydl://mylink">Launch</a></p>
-       <p><a href="unitydl://pocketfriends.com?invite=FK8Ff3iCxhah9cANDNSBW9K4xcX2">Launch with Parameter</a></p>
-
       </div>
 
       
