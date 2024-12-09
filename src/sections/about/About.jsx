@@ -5,6 +5,23 @@ import headshot from "../../assets/headshot4.png";
 import Contact from "../contact/Contact";
 import Nav_Header from "../navbar/Navbar_header"
 
+
+
+function tryOpen() {
+  var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+  var deepLinkQuery = "heyo"; 
+
+  if (userAgent.match(/iPhone|iPad|iPod/i)) {
+    window.location = "https://artlink.app/app.html" + deepLinkQuery;
+  } else {
+    window.location = "unitydl://pocketfriends.com?invite=" + deepLinkQuery;
+    setTimeout(function () {
+      window.location = "https://play.google.com/store/apps/details?id=com.colorfulcoding.artlink";
+    }, 3000);
+  }
+}
+
+
 function About() {
   return (
     <section id="about">
@@ -23,6 +40,8 @@ function About() {
           <Contact/>
         </div>
 
+
+        <button onClick={tryOpen}>Deep link testing for campfire</button>
       </div>
 
       
