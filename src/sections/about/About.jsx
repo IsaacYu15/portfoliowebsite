@@ -39,9 +39,6 @@ function About() {
           <Experiences/>
           <Contact/>
         </div>
-
-
-        <button onClick={tryOpen}>Deep link testing for campfire</button>
       </div>
 
       
