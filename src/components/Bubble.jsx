@@ -1,24 +1,18 @@
-import React from "react";
 import "./bubble.css";
 
 function Bubble({ data }) {
-  console.log(data.source);
   return (
-    <div className="container bubble__container">
-      <div id="content">
-        <img
-          id="image"
-          src={require("../assets/" + data.source + ".png")}
-          alt="logo"
-        />
+    <div className="bubble_container">
+      <div className="content">
+        <img className="image" src={data.source} alt="logo" />
 
-        <div id="details">
-          <h2>{data.company}</h2>
+        <div className="details">
+          <h3>{data.company}</h3>
           <p>{data.position}</p>
         </div>
       </div>
 
-      <p id="date">{data.date}</p>
+      <img className="contentImage" src={data.demo} alt="logo" />
     </div>
   );
 }

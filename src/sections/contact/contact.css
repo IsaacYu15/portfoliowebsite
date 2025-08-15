@@ -6,7 +6,7 @@
 .contact__container {
   margin-top: 3rem;
   margin-bottom: 1.5rem;
-  border-top: 5px solid var(--color-green4);
+  border-top: 2px solid var(--color-green4);
 
   display: flex;
   flex-direction: row;
@@ -19,4 +19,8 @@
   font-size: 2rem;
   z-index: 13;
   color: var(--color-green4);
+}
+
+.contact__container a:hover{
+  color: var(--color-green1);
 }

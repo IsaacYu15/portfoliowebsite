@@ -1,48 +1,26 @@
-import React from "react";
 import "./about.css";
-import Experiences from "../experiences/Experiences"
-import headshot from "../../assets/headshot4.png";
-import Contact from "../contact/Contact";
-import Nav_Header from "../navbar/Navbar_header"
-
-
-
-function tryOpen() {
-  var userAgent = navigator.userAgent || navigator.vendor || window.opera;
-  var deepLinkQuery = "heyo"; 
-
-  if (userAgent.match(/iPhone|iPad|iPod/i)) {
-    window.location = "https://artlink.app/app.html" + deepLinkQuery;
-  } else {
-    window.location = "unitydl://pocketfriends.com?invite=" + deepLinkQuery;
-    setTimeout(function () {
-      window.location = "https://play.google.com/store/apps/details?id=com.colorfulcoding.artlink";
-    }, 3000);
-  }
-}
-
+import Experiences from "../experiences/Experiences";
 
 function About() {
   return (
     <section id="about">
-      <div className="container about__container">
-        <Nav_Header/>
-        <img id="headshot" src={headshot} alt="logo" />
-
+      <div className="about_container">
+        <h2>nice meeting you!</h2>
         <div className="contents">
           <p>
-            My name is Isaac and I'm a student studying Systems Design
-            Engineering at the University of Waterloo! I'm passionate about building
-            cool things whether it be in the realm of web development, computer graphics or games! 
-            When I'm not working I enjoy playing chess and rock climbing :D
+            I'm Isaac, a 2B student studying Systems Design Engineering at the
+            University of Waterloo. <br></br>
+            <br></br> I love to build meaningful products in the realms of{" "}
+            <span>
+              research, game development, and full stack applications.
+            </span>{" "}
+            Wheter it be in a start up, studio or corporate environment, I love
+            to have a <span>high impact</span> on the team and{" "}
+            <span>collaborate cross discipline</span>
           </p>
-          <Experiences/>
-          <Contact/>
         </div>
       </div>
-
-      
-      
+      <Experiences />
     </section>
   );
 }
