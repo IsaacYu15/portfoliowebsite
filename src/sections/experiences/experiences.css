@@ -1,7 +1,11 @@
 .experiences_container {
   display: flex;
   flex-direction: column;
-  gap: 3.5rem;
+  gap: 1.5rem;
+  background-color: var(--color-black);
+  border-bottom-left-radius: var(--border-radius-2);
+  border-bottom-right-radius: var(--border-radius-2);
+  padding: 15px 15px 125px 15px;
 }
 
 .data {

@@ -1,99 +1,104 @@
-const data = [
+import RaytracingMonkey from "../../assets/projects/animation/monkey.png";
+import RaytracingLighting from "../../assets/projects/animation/lighting.png";
+import ProceduralAnimation from "../../assets/projects/animation/procedural.png";
+import FlockingModel from "../../assets/projects/animation/flocking.png";
+import SpaceOut from "../../assets/projects/hackathon/spaceout.png";
+import UTRA from "../../assets/projects/hackathon/utra.jpg";
+import GoosePeak from "../../assets/projects/hackathon/goosepeak.jpg";
+import StaticSite from "../../assets/projects/fullstack/hackthenorth-staticsite.png";
+import ApplySite from "../../assets/projects/fullstack/hackthenorth-apply.png";
+import WatCard from "../../assets/projects/fullstack/watcard.png";
+import VrSurgery from "../../assets/projects/games/vrsurgery.png";
+import Splat from "../../assets/projects/games/splat.png";
 
+const data = [
   {
     id: 1,
-    source: "raytracingfromscratch",
-    title: "RAYTRACER",
-    desc:
-      "Rendering 3D objects from .obj files under various materials and transformations",
+    source: [RaytracingMonkey, RaytracingLighting],
+    title: "Raytracing",
     lang: "C++",
-    link: "https://hungry-tray-2e2.notion.site/RAYTRACING-FROM-SCRATCH-4053ea725f994ca787ef0a7a890eeb55?pvs=74",
-    youtube: "N/A",
-    git: "https://github.com/IsaacYu15/RaytracingFromScratch",
+    desc: "renders 3D models in C++",
+    link: "https://github.com/IsaacYu15/RaytracingFromScratch",
   },
-
   {
     id: 2,
-    source: "vrsurgeryShowcase",
+    source: [ProceduralAnimation],
+    title: "Procedural Animation",
+    lang: "Unity, C#",
+    desc: "real time walking animations for spiders",
+    link: "https://github.com/IsaacYu15/ProceduralWalkingAnimation",
+  },
+  {
+    id: 3,
+    source: [FlockingModel],
+    title: "Flocking Model",
+    desc: "simulating schools of fish",
+    lang: "Unity, C#",
+    link: "N/A",
+    youtube:
+      "https://www.youtube.com/watch?v=hVDA2jKtwXM&list=PLNU3z4IRiDwNV2LOxBC6R3CmT7_a09eHN&index=2",
+    git: "https://github.com/IsaacYu15/Boids-Flocking-Algorithm",
+  },
+  {
+    id: 4,
+    source: [SpaceOut],
+    title: "Space Out",
+    desc: "flash card game, Clock hacks winner",
+    lang: "Unity, C#",
+    link: "https://devpost.com/software/spaced-out-fbv7tz",
+  },
+  {
+    id: 5,
+    source: [UTRA],
+    title: "WALL-E",
+    desc: "closed challenge, UTRA winner",
+    lang: "Arduino",
+    link: "https://devpost.com/software/wannabe-wall-e",
+  },
+  {
+    id: 6,
+    source: [GoosePeak],
+    title: "Goose Peak",
+    desc: "productivity extension",
+    lang: "Gemini, Javascript, TailwindCSS",
+    link: "https://devpost.com/software/wannabe-wall-e",
+  },
+  {
+    id: 7,
+    source: [StaticSite, ApplySite],
+    title: "Hack the North",
+    desc: "Canada's largest hackathon",
+    lang: "Typescript, React, GraphQL",
+    link: "https://www.loom.com/share/88193fd39f2248a9aaa46972b54be6d6",
+  },
+  {
+    id: 8,
+    source: [WatCard],
+    title: "WatCard",
+    desc: "Budgeting app for Waterloo's Debit Card",
+    lang: "Postgres, Express, React, Node",
+    link: "https://github.com/IsaacYu15/WATCard",
+  },
+  {
+    id: 9,
+    source: [VrSurgery],
     title: "VR SURGERY",
     desc:
-      "VR surgery application that mimics features such as grabbing, cutting and suturing.",
+      "surgery application for Quest",
     lang: "Unity, C#, Oculus Integration",
     link: "N/A",
     youtube: "https://www.youtube.com/watch?v=iJSWnNqPqfo",
     git: "https://github.com/IsaacYu15/VR-Surgery",
   },
-
   {
-    id: 3,
-    source: "ProceduralShowcase",
-    title: "PROCEDURAL ANIMATION",
-    desc:
-      "Generates walking animations for a spider in real-time",
-    lang: "Unity, C#",
-    link: "N/A",
-    youtube: "https://www.youtube.com/watch?v=AifGsKtQZbg",
-    git: "https://github.com/IsaacYu15/ProceduralWalkingAnimation",
-  },
-
-  {
-    id: 4,
-    source: "flockingmodel",
-    title: "FLOCKING MODEL",
-    desc:
-      "Simulating the behaviour of schools of fish",
-    lang: "Unity, C#",
-    link: "N/A",
-    youtube: "https://www.youtube.com/watch?v=hVDA2jKtwXM&list=PLNU3z4IRiDwNV2LOxBC6R3CmT7_a09eHN&index=2",
-    git: "https://github.com/IsaacYu15/Boids-Flocking-Algorithm",
-  },
-
-  {
-    id: 5,
-    source: "watcard",
-    title: "WATCARD",
-    desc:
-      "An app for managing / budgeting Waterloo's debit card",
-    lang: "Postgres, Express, React, Node",
-    link: "N/A",
-    youtube: "N/A",
-    git: "https://github.com/IsaacYu15/WATCard",
-  },
-
-  {
-    id: 6,
-    source: "SplatShowcase",
+    id: 10,
+    source: [Splat],
     title: "SPLAT!",
-    desc:
-      "A 2D platformer with over 30 levels, endless mode, and skins",
+    desc: "mobile platformer",
     lang: "Unity, C#",
     link: "N/A",
     youtube: "https://www.youtube.com/watch?v=xSwq6TVdwE0",
     git: "N/A",
-  },
-
-  {
-    id: 7,
-    source: "SpaceoutShowcase",
-    title: "SPACE OUT!",
-    desc:
-      "Flash card game that won 1st Place Overall & Best Productivity Hack at Clock Hacks",
-    lang: "Unity, C#",
-    link: "https://devpost.com/software/spaced-out-fbv7tz",
-    youtube: "https://www.youtube.com/watch?v=G3Pc61B7gCo&embeds_referring_euri=https%3A%2F%2Fdevpost.com%2F&source_ve_path=OTY3MTQ",
-    git: "https://github.com/IsaacYu15/ClockHacks_SPACEOUT",
-  },
-
-  {
-    id: 8,
-    source: "wordhuntsolverShowcase",
-    title: "BOGGLE SOLVER",
-    desc:
-      "Determines all words formed by letters connected diagonaly or adjacently in a 4x4 grid of letters",
-    lang: "Javascript, HTML, CSS",
-    youtube: "N/A",
-    link: "https://word-hunt-solver-fspl8321s-isaacyu15.vercel.app/",
-    git: "https://github.com/IsaacYu15/WordHuntSolver",
   },
 ];
 

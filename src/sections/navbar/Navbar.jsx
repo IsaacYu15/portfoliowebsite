@@ -19,7 +19,7 @@ const Navbar = () => {
           }
         </div>
         <p>
-          fullstack & game developer
+          SYDE at UW
         </p>
       </div>
     </nav>

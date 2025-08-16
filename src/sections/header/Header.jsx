@@ -28,7 +28,7 @@ const Header = () => {
             Passionate about crafting beautiful experiences and tools that
             enable people to do the same
           </p>
-          <a href="mailto:isaachhyu@gmail.com" class="contact" mail>
+          <a href="mailto:isaachhyu@gmail.com" className="contact" mail="true">
             <span>CONTACT</span>
             <HiArrowUpRight />
           </a>

@@ -1,7 +1,7 @@
 .bubble_container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: start;
   align-items: center;
 
   gap: 3rem;
@@ -9,9 +9,9 @@
   padding-left: 15px;
   border-left: solid var(--color-green3) 2px;
 
-
   width: 100%; 
   transition: var(--transition);
+  z-index: 10;
 }
 
 .contentImage {
@@ -36,7 +36,7 @@
 }
 
 .bubble_container:hover .contentImage {
-  right: 25px;
+  right: 30px;
   opacity: 1;
 }
 
@@ -70,5 +70,5 @@
 }
 
 .details p {
-  color: var(--color-green1);
+  color: var(--color-green2);
 }
