@@ -1,16 +1,16 @@
 import Card from "../../components/Card";
 import data from "./data";
-import "./work.css";
+import "./project.css";
 
-const Work = () => {
+const Project = () => {
   return (
     <div>
-      <section id="work">
-        <div className="work_header">
+      <section id="projects">
+        <div className="project_header">
           <h2 className="subheader">Projects</h2>
         </div>
 
-        <div className="work_container">
+        <div className="project_container">
           {data.map((item) => (
             <Card
               key={item.id}
@@ -24,4 +24,4 @@ const Work = () => {
   );
 };
 
-export default Work;
+export default Project;

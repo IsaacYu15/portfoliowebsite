@@ -34,7 +34,7 @@ const Header = () => {
             I like to solve complex problems <br></br> and build tools that
             enable people to create!
           </p>
-          <a href={`#work`} className="projects">
+          <a href={`#projects`} className="projects">
             <span>View Projects</span>
             <HiArrowDown />
           </a>
