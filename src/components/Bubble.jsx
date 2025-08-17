@@ -1,10 +1,12 @@
 import "./bubble.css";
+import { useIsLargeMobile} from "../sections/constants";
 
 function Bubble({ data }) {
+  const isLargeMobile = useIsLargeMobile();
   return (
     <div className="bubble_container">
       <div className="bubble_content">
-        <img className="image" src={data.source} alt="logo" />
+        {!isLargeMobile && <img className="image" src={data.source} alt="logo" />}
 
         <div className="details">
           <h3>{data.company}</h3>

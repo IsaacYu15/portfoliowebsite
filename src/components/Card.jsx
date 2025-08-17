@@ -1,7 +1,10 @@
+import { useIsLargeMobile, useIsMobile } from "../sections/constants";
 import "./card.css";
-import { HiArrowUpRight } from "react-icons/hi2";
 
 const Card = ({ props }) => {
+  const isLargeMobile = useIsLargeMobile();
+  const isMobile = useIsMobile();
+
   return (
     <a
       className="card_container"
@@ -10,17 +13,41 @@ const Card = ({ props }) => {
       rel="noopener noreferrer"
     >
       <div className="img_container">
-        {props.source.map((item) => (
-          <img className="portfolioImages" src={item} alt="img" />
-        ))}
+        {isMobile ? (
+          <img
+            className="portfolioImages"
+            src={props.source[0]}
+            alt="img"
+            style={{
+              width: "100%"
+                
+            }}
+          />
+        ) : (
+          props.source.map((item) => (
+            <img className="portfolioImages" src={item} alt="img" style ={{width: isLargeMobile
+                ? "calc(42vw - 48px)"
+                : "calc(min(28vw, 408px) - 48px)",}} />
+          ))
+        )}
       </div>
-      <div className="text_container">
-        <a
-          className="title"
-        >
-          {props.title}
-          <HiArrowUpRight />
-        </a>
+      <div
+        className="text_container"
+        style={{
+          maxWidth: `calc(min(${
+            isMobile
+              ? 100
+              : isLargeMobile
+              ? props.source.length > 1
+                ? 84
+                : 42
+              : props.source.length > 1
+              ? 56
+              : 28
+          }vw, 408px) - 48px)`,
+        }}
+      >
+        <h3 className="title">{props.title}</h3>
         <small>{props.desc}</small>
       </div>
     </a>

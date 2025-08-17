@@ -41,6 +41,14 @@ const data = [
   },
   {
     id: 4,
+    source: [StaticSite, ApplySite],
+    title: "Hack the North",
+    desc: "Canada's largest hackathon",
+    lang: "Typescript, React, GraphQL",
+    link: "https://www.loom.com/share/88193fd39f2248a9aaa46972b54be6d6",
+  },
+  {
+    id: 5,
     source: [SpaceOut],
     title: "Space Out",
     desc: "flash card game, Clock hacks winner",
@@ -48,7 +56,7 @@ const data = [
     link: "https://devpost.com/software/spaced-out-fbv7tz",
   },
   {
-    id: 5,
+    id: 6,
     source: [UTRA],
     title: "WALL-E",
     desc: "closed challenge, UTRA winner",
@@ -56,20 +64,12 @@ const data = [
     link: "https://devpost.com/software/wannabe-wall-e",
   },
   {
-    id: 6,
+    id: 7,
     source: [GoosePeak],
     title: "Goose Peak",
     desc: "productivity extension",
     lang: "Gemini, Javascript, TailwindCSS",
     link: "https://devpost.com/software/wannabe-wall-e",
-  },
-  {
-    id: 7,
-    source: [StaticSite, ApplySite],
-    title: "Hack the North",
-    desc: "Canada's largest hackathon",
-    lang: "Typescript, React, GraphQL",
-    link: "https://www.loom.com/share/88193fd39f2248a9aaa46972b54be6d6",
   },
   {
     id: 8,
@@ -83,8 +83,7 @@ const data = [
     id: 9,
     source: [VrSurgery],
     title: "VR SURGERY",
-    desc:
-      "surgery application for Quest",
+    desc: "surgery application for Quest",
     lang: "Unity, C#, Oculus Integration",
     link: "https://github.com/IsaacYu15/VR-Surgery",
   },

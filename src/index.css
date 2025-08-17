@@ -12,7 +12,8 @@
 @font-face {
   font-family: "RedHatDisplay";
   src: local("RedHatDisplay"),
-    url("./fonts/RedHatDisplay/RedHatDisplay-VariableFont_wght.ttf") format("truetype");
+    url("./fonts/RedHatDisplay/RedHatDisplay-VariableFont_wght.ttf")
+      format("truetype");
 }
 
 @font-face {
@@ -22,10 +23,6 @@
 }
 
 :root {
-  /*GENERAL CONTAINER VARIABLES*/
-  --container-width-lg: 76%; /*for desktop*/
-  --container-width-md: 90%; /*for phones and tablets*/
-
   /*BORDER RADIUS VARIABLES */
   --border-radius-rounded: 200px;
   --border-radius-1: 24px;
@@ -43,20 +40,20 @@
   --color-black: #232222;
 
   --color-gray: #f5f5f5;
-  --color-white: #FAF9F6;
+  --color-white: #faf9f6;
 }
 
 html {
   scroll-behavior: smooth;
   background-color: var(--color-white);
-  margin: 0 auto;  
+  margin: 0 auto;
   overflow-x: hidden;
 }
 
 body {
   max-width: 1440px;
-  margin: 0 auto;      
-  width: 100%;         
+  margin: 0 auto;
+  width: 100%;
 }
 
 h1 {
@@ -100,8 +97,7 @@ p {
   color: var(--color-black);
 }
 
-small
-{
+small {
   font-family: "RedHatDisplay";
   font-size: 1rem;
   color: var(--color-green1);
@@ -110,10 +106,36 @@ small
 
 main {
   width: 84%;
-  margin: 32px auto;
+  margin: auto;
 }
 
 .subheader {
-  color: var( --color-gray);
+  color: var(--color-gray);
   font-weight: 800;
+  font-size: 2.75rem;
+}
+
+@media screen and (max-width: 960px) {
+  p {
+    font-size: 0.9rem;
+  }
+
+  small {
+    font-size: 0.85rem;
+  }
+
+  .subheader {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h3 {
+    font-size: 1.25rem;
+  }
+
+  main {
+    width: 95%;
+    min-width: 300px;
+  }
 }
