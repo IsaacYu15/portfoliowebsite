@@ -4,18 +4,20 @@ function About() {
   return (
     <section id="about">
       <div className="about_container">
-        <h2>nice to meet you!</h2>
-        <div className="contents">
+        <div className="title_content">
+          <h2 className="subheader">Nice to meet you!</h2>
+        </div>
+        <div className="content">
           <p>
             I'm Isaac, a 2B student studying Systems Design Engineering at the
             University of Waterloo. <br></br>
             <br></br> I love to build meaningful products in the realms of{" "}
             <span>
               research, game development, and full stack applications
-            </span>{" "}
-            Wheter it be in a start up, studio or corporate environment, I love
+            </span>{" "}as a software developer.
+            Whether it be in a start up, studio or corporate environment, I love
             to have a <span>high impact</span> on the team and{" "}
-            <span>collaborate cross discipline</span>
+            <span>collaborate cross discipline</span>{"."}
           </p>
         </div>
       </div>

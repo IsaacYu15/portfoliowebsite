@@ -1,6 +1,6 @@
 import "./header.css";
 import headshot from "../../assets/headshot4.png";
-import { HiArrowUpRight } from "react-icons/hi2";
+import { HiArrowDown } from "react-icons/hi2";
 import Contact from "../contact/Contact";
 import { useEffect, useState } from "react";
 
@@ -18,19 +18,18 @@ const Header = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-
+//>
   return (
     <header id="header" style={{ opacity: 1 - scrollY / (window.innerHeight /2) }}>
-      <h1 className="headerText">ISAAC YU</h1>
       <div className="headerContent">
         <div className="motivation">
+          <h1 className="headerText">ISAAC YU</h1>
           <p>
-            Passionate about crafting beautiful experiences and tools that
-            enable people to do the same
+            I like to solve complex problems <br></br> and build tools that enable people to create!
           </p>
-          <a href="mailto:isaachhyu@gmail.com" className="contact" mail="true">
-            <span>CONTACT</span>
-            <HiArrowUpRight />
+          <a href={`#work`} className="projects">
+            <span>View Projects</span>
+            <HiArrowDown/>
           </a>
           <Contact />
         </div>

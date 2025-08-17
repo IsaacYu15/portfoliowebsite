@@ -7,7 +7,7 @@ const Work = () => {
     <div>
       <section id="work">
         <div className="work_header">
-          <h2>here's what've i've been up to</h2>
+          <h2 className="subheader">Projects</h2>
         </div>
 
         <div className="work_container">

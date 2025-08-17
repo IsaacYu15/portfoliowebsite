@@ -86,9 +86,7 @@ const data = [
     desc:
       "surgery application for Quest",
     lang: "Unity, C#, Oculus Integration",
-    link: "N/A",
-    youtube: "https://www.youtube.com/watch?v=iJSWnNqPqfo",
-    git: "https://github.com/IsaacYu15/VR-Surgery",
+    link: "https://github.com/IsaacYu15/VR-Surgery",
   },
   {
     id: 10,
@@ -96,9 +94,7 @@ const data = [
     title: "SPLAT!",
     desc: "mobile platformer",
     lang: "Unity, C#",
-    link: "N/A",
-    youtube: "https://www.youtube.com/watch?v=xSwq6TVdwE0",
-    git: "N/A",
+    link: "https://www.youtube.com/watch?v=xSwq6TVdwE0",
   },
 ];
 

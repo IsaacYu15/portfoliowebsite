@@ -3,7 +3,12 @@ import { HiArrowUpRight } from "react-icons/hi2";
 
 const Card = ({ props }) => {
   return (
-    <div className="card_container">
+    <a
+      className="card_container"
+      href={props.link}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
       <div className="img_container">
         {props.source.map((item) => (
           <img className="portfolioImages" src={item} alt="img" />
@@ -11,9 +16,6 @@ const Card = ({ props }) => {
       </div>
       <div className="text_container">
         <a
-          href={props.link}
-          target="_blank"
-          rel="noopener noreferrer"
           className="title"
         >
           {props.title}
@@ -21,7 +23,7 @@ const Card = ({ props }) => {
         </a>
         <small>{props.desc}</small>
       </div>
-    </div>
+    </a>
   );
 };
 

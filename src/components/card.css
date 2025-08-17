@@ -6,15 +6,19 @@
   z-index: 10;
 
   background-color: var(--color-black);
-  padding: 15px;
-  border-radius: var(--border-radius-2);
+  padding: 16px;
+  border-radius: var(--border-radius-1);
   transition: var(--transition);
+}
+
+.card_container:hover {
+  transform: scale(1.025);
 }
 
 .img_container {
   display: flex;
   align-items: center;
-  gap: 45px;
+  gap: 48px;
   pointer-events: none;
 }
 
@@ -29,7 +33,7 @@
   position: relative;
 
   opacity: 100%;
-  width: calc( min(30vw, 432px) - 50px);
+  width: calc( min(28vw, 408px) - 48px);
   aspect-ratio: 1.5;
 
   object-fit: cover;
@@ -50,15 +54,6 @@
   align-items: center;
 }
 
-.toolTip {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: var(--color-black);
-  color: white;
-  border-radius: var(--border-radius-2);
-  padding: 7.5px 20px;
-  opacity: 0;
-  transition: var(--transition);
+.title:hover {
+  color: var(--color-green2);
 }

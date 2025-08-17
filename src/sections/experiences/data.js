@@ -20,7 +20,7 @@ const data = [
   {
     id: 2,
     date: "2024",
-    company: "Compulsion Games (Xbox Games)",
+    company: "Compulsion Games (Xbox)",
     position: "Engine/Tools Programmer",
     source: CompulsionGames,
     demo: CompulsionGamesDemo,
@@ -36,7 +36,7 @@ const data = [
   {
     id: 4,
     date: "2025",
-    company: "Toronto Transit Comission (TTC)",
+    company: "Toronto Transit Comission",
     position: "Software Engineer Intern",
     source: TTC,
     demo: TTCDemo,

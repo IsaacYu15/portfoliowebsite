@@ -5,6 +5,7 @@ import "./experiences.css";
 function Experiences() {
   return (
     <section id="experiences">
+      <h2 className="subheader">Experiences</h2>
       <div className="experiences_container">
         {experiencesData.reverse().map((item) => (
           <Bubble key={item.id} data={item}></Bubble>

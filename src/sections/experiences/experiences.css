@@ -1,11 +1,23 @@
-.experiences_container {
+#experiences {
+  position: relative;
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 32px;
   background-color: var(--color-black);
   border-bottom-left-radius: var(--border-radius-2);
   border-bottom-right-radius: var(--border-radius-2);
-  padding: 15px 15px 125px 15px;
+  padding: 0px 64px 64px 64px;
+  transform: translateY(-64px);
+  z-index: 10;
+}
+
+.experiences_container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  background-color: var(--color-black);
+  border-bottom-left-radius: var(--border-radius-2);
+  border-bottom-right-radius: var(--border-radius-2);
 }
 
 .data {

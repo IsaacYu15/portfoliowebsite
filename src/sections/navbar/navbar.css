@@ -5,8 +5,8 @@
   justify-content: space-between;
   align-items: center;
 
-  font-size: 0.5rem;
-  z-index: 99;
+  height: 32px;
+  margin-bottom: 32px;
 }
 
 .nav {
@@ -15,10 +15,11 @@
   justify-content: start;
   align-items: center;
   gap: 1rem;
+  z-index: 99 !important;
 }
 
 .routes {
-  color: var(--color-black);
+  color: var(--color-green4);
   text-decoration: none;
 }
 

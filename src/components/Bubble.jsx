@@ -3,7 +3,7 @@ import "./bubble.css";
 function Bubble({ data }) {
   return (
     <div className="bubble_container">
-      <div className="content">
+      <div className="bubble_content">
         <img className="image" src={data.source} alt="logo" />
 
         <div className="details">
