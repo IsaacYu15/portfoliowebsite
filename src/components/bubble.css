@@ -13,7 +13,7 @@
 }
 
 .contentImage {
-  width: calc(50% - 8px);
+  width: 50%;
   aspect-ratio: 2;
   object-fit: cover;
 
