@@ -11,7 +11,7 @@ import TTCDemo from "../../assets/company/TTCDemo.jpg"
 const data = [
   {
     date: "2022, 2023",
-    company: "Sunnybrook Focused Ultrasound Lab",
+    company: "Sunnybrook Focused Ultrasound Lab (interned twice)",
     position: "Software Developer Intern",
     source: SunnyBrook,
     demo: SunnyBrookDemo,
