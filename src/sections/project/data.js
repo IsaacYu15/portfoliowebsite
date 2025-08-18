@@ -64,7 +64,7 @@ const data = [
     id: 7,
     source: [GoosePeak],
     title: "Goose Peak",
-    desc: "productivity extension",
+    desc: "context based productivity extension",
     lang: "Gemini, Javascript, TailwindCSS",
     link: "https://devpost.com/software/goosepeak-hixzd8",
   },
