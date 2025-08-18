@@ -34,10 +34,7 @@ const data = [
     title: "Flocking Model",
     desc: "simulating schools of fish",
     lang: "Unity, C#",
-    link: "N/A",
-    youtube:
-      "https://www.youtube.com/watch?v=hVDA2jKtwXM&list=PLNU3z4IRiDwNV2LOxBC6R3CmT7_a09eHN&index=2",
-    git: "https://github.com/IsaacYu15/Boids-Flocking-Algorithm",
+    link: "https://github.com/IsaacYu15/Boids-Flocking-Algorithm",
   },
   {
     id: 4,
@@ -69,12 +66,12 @@ const data = [
     title: "Goose Peak",
     desc: "productivity extension",
     lang: "Gemini, Javascript, TailwindCSS",
-    link: "https://devpost.com/software/wannabe-wall-e",
+    link: "https://devpost.com/software/goosepeak-hixzd8",
   },
   {
     id: 8,
     source: [WatCard],
-    title: "WatCard",
+    title: "WATCard",
     desc: "budgeting app for waterloo's debit card",
     lang: "Postgres, Express, React, Node",
     link: "https://github.com/IsaacYu15/WATCard",
@@ -82,7 +79,7 @@ const data = [
   {
     id: 9,
     source: [VrSurgery],
-    title: "VR SURGERY",
+    title: "VR Surgery",
     desc: "robotic surgery simulator",
     lang: "Unity, C#, Oculus Integration",
     link: "https://github.com/IsaacYu15/VR-Surgery",
