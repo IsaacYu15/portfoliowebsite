@@ -40,7 +40,7 @@ const data = [
     id: 4,
     source: [StaticSite, ApplySite],
     title: "Hack the North",
-    desc: "front end for canada's largest hackathon",
+    desc: "frontend for canada's largest hackathon",
     lang: "Typescript, React, GraphQL",
     link: "https://www.loom.com/share/88193fd39f2248a9aaa46972b54be6d6",
   },
