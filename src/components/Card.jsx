@@ -19,15 +19,22 @@ const Card = ({ props }) => {
             src={props.source[0]}
             alt="img"
             style={{
-              width: "100%"
-                
+              width: "100%",
             }}
           />
         ) : (
-          props.source.map((item) => (
-            <img className="portfolioImages" src={item} alt="img" style ={{width: isLargeMobile
-                ? "calc(42vw - 48px)"
-                : "calc(min(28vw, 408px) - 48px)",}} />
+          props.source.map((item, index) => (
+            <img
+              key={index}
+              className="portfolioImages"
+              src={item}
+              alt="img"
+              style={{
+                width: isLargeMobile
+                  ? "calc(42vw - 48px)"
+                  : "calc(min(28vw, 408px) - 48px)",
+              }}
+            />
           ))
         )}
       </div>

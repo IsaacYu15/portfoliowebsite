@@ -13,7 +13,6 @@ import Splat from "../../assets/projects/games/splat.png";
 
 const data = [
   {
-    id: 1,
     source: [RaytracingMonkey, RaytracingLighting],
     title: "Raytracing",
     lang: "C++",
@@ -21,7 +20,6 @@ const data = [
     link: "https://github.com/IsaacYu15/RaytracingFromScratch",
   },
   {
-    id: 2,
     source: [ProceduralAnimation],
     title: "Procedural Animation",
     lang: "Unity, C#",
@@ -29,7 +27,6 @@ const data = [
     link: "https://github.com/IsaacYu15/ProceduralWalkingAnimation",
   },
   {
-    id: 3,
     source: [FlockingModel],
     title: "Flocking Model",
     desc: "simulating schools of fish",
@@ -37,7 +34,6 @@ const data = [
     link: "https://github.com/IsaacYu15/Boids-Flocking-Algorithm",
   },
   {
-    id: 4,
     source: [StaticSite, ApplySite],
     title: "Hack the North",
     desc: "frontend for canada's largest hackathon",
@@ -45,7 +41,6 @@ const data = [
     link: "https://www.loom.com/share/88193fd39f2248a9aaa46972b54be6d6",
   },
   {
-    id: 5,
     source: [SpaceOut],
     title: "Space Out",
     desc: "flash card game, 1st place Clock Hacks",
@@ -53,7 +48,6 @@ const data = [
     link: "https://devpost.com/software/spaced-out-fbv7tz",
   },
   {
-    id: 6,
     source: [UTRA],
     title: "WALL-E",
     desc: "closed challenge, 1st place UTRA",
@@ -61,7 +55,6 @@ const data = [
     link: "https://devpost.com/software/wannabe-wall-e",
   },
   {
-    id: 7,
     source: [GoosePeak],
     title: "Goose Peak",
     desc: "context based productivity extension",
@@ -69,7 +62,6 @@ const data = [
     link: "https://devpost.com/software/goosepeak-hixzd8",
   },
   {
-    id: 8,
     source: [WatCard],
     title: "WATCard",
     desc: "budgeting app for waterloo's debit card",
@@ -77,7 +69,6 @@ const data = [
     link: "https://github.com/IsaacYu15/WATCard",
   },
   {
-    id: 9,
     source: [VrSurgery],
     title: "VR Surgery",
     desc: "robotic surgery simulator",
@@ -85,7 +76,6 @@ const data = [
     link: "https://github.com/IsaacYu15/VR-Surgery",
   },
   {
-    id: 10,
     source: [Splat],
     title: "SPLAT!",
     desc: "mobile platformer",

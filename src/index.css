@@ -107,6 +107,7 @@ small {
 main {
   width: 84%;
   margin: auto;
+  padding-bottom: 32px;
 }
 
 .subheader {
@@ -137,5 +138,6 @@ main {
   main {
     width: 95%;
     min-width: 300px;
+    padding-bottom: 32px;
   }
 }

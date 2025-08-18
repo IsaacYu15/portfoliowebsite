@@ -7,8 +7,8 @@ function Experiences() {
     <section id="experiences">
       <h2 className="subheader">Experiences</h2>
       <div className="experiences_container">
-        {experiencesData.reverse().map((item) => (
-          <Bubble key={item.id} data={item}></Bubble>
+        {experiencesData.reverse().map((item, index) => (
+          <Bubble key={index} data={item}></Bubble>
         ))}
       </div>
     </section>

@@ -8,9 +8,8 @@ const Navbar = () => {
         <div className="nav">
           {
             data
-              .filter((item) => item.id >= 1)
-              .map((item) => (
-                <li key={item.id}>
+              .map((item, index) => (
+                <li key={index}>
                   <a className="routes" href={item.link}>
                     {item.title}
                   </a>

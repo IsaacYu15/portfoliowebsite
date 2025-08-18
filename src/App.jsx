@@ -6,15 +6,14 @@ import Experiences from "./sections/experiences/Experiences";
 import Contact from "./sections/contact/Contact";
 
 const App = () => {
-
   return (
     <main>
       {/* <Navbar/> */}
       <Header />
-      <About/>
+      <About />
       <Experiences />
-      <Project/>
-      <Contact/>
+      <Project />
+      <Contact />
     </main>
   );
 };

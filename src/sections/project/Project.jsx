@@ -11,9 +11,9 @@ const Project = () => {
         </div>
 
         <div className="project_container">
-          {data.map((item) => (
+          {data.map((item, index) => (
             <Card
-              key={item.id}
+              key={index}
               props={item}
               wide={item.source.length > 1}
             ></Card>

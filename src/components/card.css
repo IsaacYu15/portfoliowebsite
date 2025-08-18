@@ -15,6 +15,10 @@
   transform: scale(1.025);
 }
 
+.card_container:hover .title {
+  color: var(--color-green2);
+}
+
 .img_container {
   display: flex;
   align-items: center;
@@ -52,8 +56,4 @@
   justify-content: center;
   align-items: center;
   transition: var(--transition);
-}
-
-.title:hover {
-  color: var(--color-green2);
 }

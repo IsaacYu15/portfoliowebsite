@@ -10,7 +10,6 @@ import TTCDemo from "../../assets/company/TTCDemo.jpg"
 
 const data = [
   {
-    id: 1,
     date: "2022, 2023",
     company: "Sunnybrook Focused Ultrasound Lab",
     position: "Software Developer Intern",
@@ -18,7 +17,6 @@ const data = [
     demo: SunnyBrookDemo,
   },
   {
-    id: 2,
     date: "2024",
     company: "Compulsion Games (Xbox)",
     position: "Engine/Tools Programmer",
@@ -26,7 +24,6 @@ const data = [
     demo: CompulsionGamesDemo,
   },
   {
-    id: 3,
     date: "2024",
     company: "Sprites Ai (Y-Combinator)",
     position: "Software Engineer Intern",
@@ -34,7 +31,6 @@ const data = [
     demo: SpritesAiDemo,
   },
   {
-    id: 4,
     date: "2025",
     company: "Toronto Transit Comission",
     position: "Software Engineer Intern",
